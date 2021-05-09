@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="runfiles">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/runfiles/ui.jar!/" />
+      <root url="jar://$PROJECT_DIR$/runfiles/logic.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
