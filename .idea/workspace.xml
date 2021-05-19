@@ -1,11 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c26d7e9c-c3e1-4d30-b278-02fc891768aa" name="Default Changelist" comment="" />
+    <list default="true" id="c26d7e9c-c3e1-4d30-b278-02fc891768aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/RSE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RSE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/RSE - 318320702 &amp;  313359069.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/readme.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/runfiles/RSE.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/runfiles/logic.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/runfiles/ui.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/logic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/commands/BuyingCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/commands/RizpaCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/commands/SellingCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/commands/types/CommandType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/commands/types/FOK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/commands/types/IOC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/commands/types/LMT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/commands/types/MKT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/dto/BuyingCommandDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/dto/RecordBookDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/dto/RizpaCommandDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/dto/SellingCommandDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/dto/StockDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/generated/ObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/generated/RizpaStockExchangeDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/generated/RseStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/generated/RseStocks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/stock/RecordBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/stock/Stock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/stock/Stocks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/command/CommandAmountException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/command/CommandException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/command/CommandParsingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/command/CommandTypeNotExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/file/EmptyFileException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/file/FileException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/file/FileNotEmptyException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/file/InvalidFileTypeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/stock/CompanyNameException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/stock/StockAmountException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/stock/StockException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/stock/StockNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/stock/StockPriceException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/symbol/SymbolEmptyException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/symbol/SymbolException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/symbol/SymbolExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/symbol/SymbolMismatchException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/logicinterface/RizpaEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/logicinterface/RizpaInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/ui/src/RizpaUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part1/source/ui/ui.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part2/RSE.fxml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,9 +85,43 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="build.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Oren\Desktop\Projects\Git\RSE\src" />
+    </key>
   </component>
   <component name="RunManager">
+    <configuration name="RizpaGUI" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ui.RizpaGUI" />
+      <module name="RSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.menubar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="RSE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -35,6 +133,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RizpaGUI" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -45,10 +148,41 @@
       <option name="presentableId" value="Default" />
       <updated>1620378142623</updated>
       <workItem from="1620378148797" duration="2135000" />
+      <workItem from="1621269498679" duration="1200000" />
+      <workItem from="1621270720982" duration="312000" />
+      <workItem from="1621271057926" duration="4809000" />
+      <workItem from="1621333959278" duration="1436000" />
+      <workItem from="1621345112155" duration="9288000" />
+      <workItem from="1621435051879" duration="661000" />
+      <workItem from="1621435728418" duration="649000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="ui.menubar.MenuBarController" memberName="mainController" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RSE$RizpaGUI.ic" NAME="RizpaGUI Coverage Results" MODIFIED="1621351527862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ui.menubar.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/RSE.iml" filepath="$PROJECT_DIR$/.idea/RSE.iml" />
-      <module fileurl="file://$PROJECT_DIR$/source/logic/logic.iml" filepath="$PROJECT_DIR$/source/logic/logic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/source/ui/ui.iml" filepath="$PROJECT_DIR$/source/ui/ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/logic/logic.iml" filepath="$PROJECT_DIR$/src/logic/logic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ui/ui.iml" filepath="$PROJECT_DIR$/src/ui/ui.iml" />
     </modules>
   </component>
 </project>

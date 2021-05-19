@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioMenuItem?>
+
+<MenuBar maxHeight="1.7976931348623157E308" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.menubar.MenuBarController">
+   <menus>
+      <Menu fx:id="MenuBar" mnemonicParsing="false" text="File">
+         <items>
+            <MenuItem fx:id="import_xml_btn" mnemonicParsing="false" onAction="#importXMLActionListner" text="Import XML File" />
+            <MenuItem fx:id="load_system_btn" mnemonicParsing="false" onAction="#loadSystemActionHandler" text="Load System Save FIle" />
+            <MenuItem fx:id="system_save_btn" mnemonicParsing="false" onAction="#saveSystemActionListner" text="Create System Save File" />
+         </items>
+      </Menu>
+      <Menu mnemonicParsing="false" text="View">
+         <items>
+            <RadioMenuItem mnemonicParsing="false" text="Dark Mode" />
+         </items>
+      </Menu>
+      <Menu mnemonicParsing="false" text="Help">
+         <items>
+            <MenuItem fx:id="about_btn" mnemonicParsing="false" onAction="#aboutActionListner" text="About" />
+            <MenuItem mnemonicParsing="false" text="How To Use?" />
+         </items>
+      </Menu>
+   </menus>
+</MenuBar>
