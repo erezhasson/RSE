@@ -1,0 +1,36 @@
+* {
+   -fx-font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.userNameLabel .text {
+    -fx-font-size: 40px;
+}
+.label .text{ 
+    -fx-fill: black;
+}
+
+.totalValueLabel .text{ 
+    -fx-fill: black;
+}
+
+.table-view:row-selection:constrained-resize .column-header-background .nested-column-header .table-column {
+
+}
+
+.table-view:row-selection:constrained-resize .column-header-background .nested-column-header .table-column .label .text{
+   -fx-fill: black;
+}
+
+.table-view {
+}
+
+.table-row-cell: odd{
+}
+
+.table-row-cell .text{
+    -fx-fill: black;
+}
+
+.table-row-cell: even{
+}
+

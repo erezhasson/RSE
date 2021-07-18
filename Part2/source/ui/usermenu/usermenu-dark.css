@@ -1,0 +1,19 @@
+.tab-header-background {
+   -fx-background-color: #36393f;
+}
+
+.tab {
+  -fx-background-color: #0B0C0D;
+}
+
+.tab:selected {
+  -fx-background-color: #0080FF;
+}
+
+.tab .tab-label .text {
+   -fx-fill: white;
+}
+
+.tab .tab-label .text:hover {
+   -fx-underline: true;
+}

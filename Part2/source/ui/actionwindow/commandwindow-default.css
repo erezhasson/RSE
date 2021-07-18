@@ -1,0 +1,15 @@
+.text {
+    -fx-fill: black
+}
+
+.window-header .text{ 
+    -fx-font-size: 30px;
+}
+
+.button .text:hover {
+     -fx-underline: true;
+}
+
+.choice-box .open-button .arrow {
+    -fx-background-color: black
+}

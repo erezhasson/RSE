@@ -1,0 +1,34 @@
+.mainComponent{
+    -fx-dark-header-color: #202225;
+    -fx-dark-body-color: #36393f;
+}
+
+.menu-bar  {
+   -fx-background-color: #202225;
+   -fx-border-color: black;
+}
+
+.menu-bar .container .menu-item: hover {
+   -fx-background-color: #25282D;
+}
+
+.menu-bar .container .menu .label .text  {
+   -fx-fill: white;
+}
+
+.menu-bar .container .menu-item {
+   -fx-background-color: -fx-dark-body-color;
+}
+
+.button {
+   -fx-background-color: -fx-dark-body-color;	
+}
+
+.button .text {
+   -fx-fill: white;
+}
+
+.button .text: hover {
+   -fx-fill: #0080FF;
+}
+

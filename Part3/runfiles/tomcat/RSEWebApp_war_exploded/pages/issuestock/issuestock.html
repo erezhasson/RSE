@@ -1,0 +1,142 @@
+<!Doctype HTML>
+<html lang="en">
+<head>
+	<title>Stock Command</title>
+	<link href="../dashboard/dashboard.css" rel="stylesheet" type="text/css"/>
+	<link href="../searchstock/searchstock.css" rel="stylesheet" type="text/css"/>
+	<link href="issuestock.css" rel="stylesheet" type="text/css"/>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="../../common/jquery-2.0.3.min.js"></script>
+	<script src="../../common/context-path-helper.js"></script>
+	<script src="issuestock.js"></script>
+	<link href="../../common/livechat/livechat.css" rel="stylesheet" type="text/css"/>
+	<script src="../../common/livechat/livechat.js"></script>
+	<script src="../../common/alertuser/alertuser.js"></script>
+
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+	<p class="logo"><span>RSE</span></p>
+	<a href="/pages/dashboard/dashboard.html" class="icon-a"><i class="fa fa-dashboard icons"></i> &nbsp;&nbsp;Dashboard</a>
+	<a class="icon-a" href="/pages/searchstock/searchstock.html"><i class="fa fa-list icons"></i> &nbsp;&nbsp;Search Stock</a>
+	<a class="icon-a" href="/pages/stockcommand/stockcommand.html"><i class="fa fa-shopping-bag icons"></i> &nbsp;&nbsp;Buy/Sell Stock</a>
+	<a class="icon-a" href=""><i class="fa fa-plus-circle icons"></i> &nbsp;&nbsp;Issue New Stock</a>
+
+	<div class="social_media">
+		<a href="/pages/profile/profile.html"><i class="fas fa-user-circle"></i></a>
+		<a href="/logout"><i class="fas fa-sign-out-alt"></i></a>
+	</div>
+
+</div>
+<div id="main">
+
+	<div class="head">
+		<div class="col-div-6">
+			<span style="font-size:30px;cursor:pointer; color: white;" class="nav"  >&#9776; Issue New Stock</span>
+			<span style="font-size:30px;cursor:pointer; color: white;" class="nav2"  >&#9776; Issue New Stock</span>
+		</div>
+	</div>
+
+	<div class="command-container">
+		<div class="content-box">
+			<h1>Issue New Stock</h1>
+
+			<div class="container">
+				<div class="form-box">
+					<form id="issue-stock-form" action="issueStock">
+						<div class="form-group form-personal">
+							<div class="form-control">
+								<label id="symbol-label" for="symbol">Symbol:</label>
+								<input id="symbol" type="text" name="symbol" placeholder="Stock's symbol" required="required"/>
+							</div>
+							<div class="form-control">
+								<label id="amount-label" for="amount">Amount:</label>
+								<input id="amount" type="number" name="amount" min="1" step="1" placeholder="Amount" required="required"/>
+							</div>
+							<div class="form-control">
+								<label id="comapny-name-label" for="comapny-name">Company's Name:</label>
+								<input id="comapny-name" type="text" name="company-name" placeholder="Company's Name" required="required"/>
+							</div>
+							<div class="form-control">
+								<label id="comapny-worth-label" for="company-worth">Estimated Worth:</label>
+								<input id="company-worth" type="number" name="company-worth" min="0.01" step="0.01" placeholder="Company's Estimated Worth" required="required"/>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="form-submit">
+								<input id="submit" type="submit" value="Issue Stock!"/>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="live-chat">
+		<header class="clearfix">
+			<a class="chat-close">x</a>
+			<h4 id="user-name-label">Live Chat: </h4>
+		</header>
+		<div class="chat" style="display: none">
+			<div id="chatarea" class="chat-history">
+			</div>
+			<form id="chatform" action="sendChat" method="POST">
+				<fieldset>
+					<input type="text" id="userstring" name="userstring" placeholder="Send Message..." autofocus>
+					<input type="hidden">
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+	$(".nav").click(function(){
+		$("#mySidenav").css('width','70px');
+		$("#main").css('margin-left','70px');
+		$(".logo").css('visibility', 'hidden');
+
+		$(".logo span").text("R");
+		$(".logo span").css('visibility', 'visible');
+		$(".logo span").css('margin-left', '-10px');
+		$(".icon-a").css('visibility', 'hidden');
+		$(".icons").css('visibility', 'visible');
+		$(".icons").css('margin-left', '-8px');
+		$(".nav").css('display','none');
+		$(".nav2").css('display','block');
+		$(".social_media").css('display','block');
+	});
+
+	$(".nav2").click(function(){
+		$("#mySidenav").css('width','300px');
+		$("#main").css('margin-left','300px');
+		$(".logo").css('visibility', 'visible');
+		$(".logo span").text("RSE");
+		$(".icon-a").css('visibility', 'visible');
+		$(".icons").css('visibility', 'visible');
+		$(".nav").css('display','block');
+		$(".nav2").css('display','none');
+		$(".social_media").css('display','flex');
+	});
+
+
+	$("#type-dropdown").change(function(){
+		var type = this.value;
+
+		if(type === "MKT")
+			$("#price-control").hide();
+		else
+			$("#price-control").show();
+	});
+
+</script>
+
+</body>
+
+
+</html>

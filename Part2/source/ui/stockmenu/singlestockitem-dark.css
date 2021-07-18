@@ -1,0 +1,33 @@
+#mainComponent .title {
+   -fx-font-style: italic;
+   -fx-background-color: #202225
+}
+
+#mainComponent .title .text {
+   -fx-fill: white;
+}
+
+#mainComponent .title .text:hover {
+   -fx-fill: #0080FF;
+}
+
+AnchorPane {
+   -fx-background-color: #36393f; 	
+}
+
+#mainComponent .title .arrow-button .arrow{
+   -fx-background-color: white;
+}
+
+#mainComponent .title .arrow-button{
+   -fx-background-color: #202225;
+}
+
+.pane-anchor {
+   -fx-border-width: 0 1 1 1; 
+   -fx-border-color: black;
+}
+
+#mainComponent .label .text {
+   -fx-fill: white;
+}

@@ -1,0 +1,116 @@
+body{
+    overflow-y: hidden;
+}
+
+.profile-container {
+    height: 500px;
+    margin-top: 100px;
+}
+
+.content-box{
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    height: 140%;
+    background: #2f3136;
+}
+
+.content-box p span{
+    background-color: #ddd;
+    padding: 3px 10px;
+    font-size: 15px;
+}
+
+.content-box span {
+    background: linear-gradient(90deg, rgba(18,17,38,1) 0%, rgba(16,15,33,1) 0%, rgba(18,17,38,1) 100%);
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+h1 {
+    position: center;
+    margin: 0;
+    font-size: 40px;
+    color: #3ba55d;
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background: #f9f9f9;
+    width: 550px;
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 40px 50px;
+    display: grid;
+    border-radius: 5px;
+    box-shadow: 0 40px 25px -30px #3ba55d;
+}
+.container h2 {
+    margin-bottom: 0px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.container p {
+    margin-bottom: 0;
+    color: #666;
+}
+.container .form-control > label {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #666;
+    margin: 15px 0 5px;
+}
+.container .form-control input,
+.container .form-control textarea,
+.container .form-control select {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 100%;
+}
+.container .form-control input[type=radio],
+.container .form-control input[type=checkbox] {
+    width: auto;
+    margin: 0 3px;
+}
+.container input[type=submit] {
+    background: #5454ff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.container input[type=submit]:hover {
+    background: #44f;
+}
+.container .form-personal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto [header] 1fr 1fr;
+    grid-column-gap: 10px;
+}
+.container .form-personal h2,
+.container .form-personal .form-control:first-of-type {
+    grid-column: 1/span 2;
+}
+.container .form-vision {
+    display: grid;
+    grid-template-colums: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+.container .form-vision h2 {
+    grid-column: 1/span 3;
+}
+
+#submit{
+    margin-top: 75px;
+}

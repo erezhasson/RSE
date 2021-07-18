@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="RSEWebApp:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="RSEWebApp" />
+          <element id="module-output" name="logic" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/src/RSEWebApp/web/WEB-INF/lib/google-gson-2.1/gson-2.1.jar" />
+          <element id="file-copy" path="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_3.5.1_jquery.js" />
+          <element id="file-copy" path="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.amcharts.com_lib_4_charts.js" />
+          <element id="file-copy" path="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.amcharts.com_lib_4_core.js" />
+          <element id="file-copy" path="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.amcharts.com_lib_4_themes_animated.js" />
+          <element id="file-copy" path="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.amcharts.com_lib_4_themes_dataviz.js" />
+          <element id="file-copy" path="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_Chart.js_3.4.1_chart.js" />
+          <element id="file-copy" path="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_font-awesome_4.7.0_css_font-awesome.css" />
+          <element id="file-copy" path="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_kit.fontawesome.com_b99e675b6e.js" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="RSEWebApp/web/Web" />
+    </root>
+  </artifact>
+</component>

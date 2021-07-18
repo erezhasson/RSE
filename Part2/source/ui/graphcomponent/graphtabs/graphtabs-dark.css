@@ -1,0 +1,26 @@
+.text {
+    -fx-fill: white;
+}
+.combo-box {
+    -fx-background-color: #202225;
+}
+
+.combo-box: .arrow-button {
+    -fx-background-color: white;
+}
+
+.combo-box: .list-cell:filled:selected .text {
+    -fx-fill: white;
+}
+
+.combo-box .list-view .list-cell{
+    -fx-background-color: #36393f;
+}
+
+.combo-box .list-view .list-cell:focused {
+    -fx-background-color: #25282D;
+}
+
+.combo-box .list-view .list-cell:focused { 
+    -fx-background-color: #25282D;
+}

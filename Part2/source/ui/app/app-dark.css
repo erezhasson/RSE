@@ -1,0 +1,47 @@
+* {
+    -fx-dark-header-color: #202225;
+    -fx-dark-body-color: #36393f;
+}
+
+#mainComponent {
+    -fx-background-color: -fx-dark-body-color;
+}
+
+.combo-box .list-cell:filled:selected .text {
+    -fx-fill: white;
+}
+
+.stock-menu {
+    -fx-background-color: -fx-dark-body-color;
+}
+
+.chart .chart-title .text {
+   -fx-fill: white;
+}
+
+.stock-anchor {
+    -fx-background-color: #25282D;
+}
+
+.stock-scroller {
+    -fx-background-color: #36393f;
+    -fx-border-width: 0 0 1 0; 
+    -fx-border-color: black;
+}
+
+.chart .chart-content .chart-plot-background {
+   -fx-background-color: #5D728A;
+}
+
+.chart .chart-title .text {
+   -fx-fill: white;
+}
+
+.axis .axis-label .text{
+   -fx-fill: white;
+}
+
+.rse-label .text {
+   -fx-fill: white;
+}
+

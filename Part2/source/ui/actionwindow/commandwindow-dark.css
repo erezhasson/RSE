@@ -1,0 +1,38 @@
+.text {
+    -fx-fill: white;
+}
+.window-header .text{ 
+    -fx-font-size: 30px;
+}
+
+.button {
+     -fx-background-color: #202225;
+}
+
+.button:hover {
+     -fx-background-color: #25282D;
+}
+
+.button .text:hover {
+     -fx-underline: true;
+}
+
+.choice-box .open-button .arrow {
+    -fx-background-color: white;
+}
+
+.choice-box {
+    -fx-background-color: #202225;
+}
+
+.choice-box .menu-item {
+    -fx-background-color: #36393f;
+}
+
+.choice-box .menu-item:focused {
+    -fx-background-color: #25282D;
+}
+
+.choice-box .menu-item:focused { 
+    -fx-background-color: #25282D;
+}

@@ -1,63 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="RSEWebApp:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c26d7e9c-c3e1-4d30-b278-02fc891768aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/RSE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RSE.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/RSEWebApp_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/logic.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6__4_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part2/source/logic/logic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/RSEWebApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/constants/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/common/AlertUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/dashboard/CommandsListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/dashboard/DealsListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/dashboard/OnlineUsersListSerlvet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/dashboard/StockSalesServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/dashboard/StockTableServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/dashboard/StocksListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/dashboard/UsersListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/issuestock/IssueStockServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/livechat/ChatServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/livechat/SendChatServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/login/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/login/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/login/SignUpServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/profile/BalanceChargeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/profile/BalanceServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/profile/FileUploadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/profile/ProfileServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/profile/TransactionTableServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/searchstock/PendingCommandsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/searchstock/SearchStockServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/stockcommand/StockCommandServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/utils/ServletUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/utils/SessionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/WEB-INF/lib/google-gson-2.1/google-gson-2.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/common/alertuser/alertuser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/common/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/common/context-path-helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/common/jquery-2.0.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/common/livechat/livechat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/common/livechat/livechat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/common/videos/welcome-video.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/dashboard/dashboard-admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/dashboard/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/dashboard/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/dashboard/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/issuestock/issuestock.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/issuestock/issuestock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/issuestock/issuestock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/login/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/login/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/profile/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/profile/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/profile/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/searchstock/searchstock-admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/searchstock/searchstock.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/searchstock/searchstock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/searchstock/searchstock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/signup/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/stockcommand/stockcommand.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/stockcommand/stockcommand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/stockcommand/stockcommand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/welcome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/src/datafiles/commands/CommandDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/src/datafiles/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/src/datafiles/dto/UserStocksDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/src/datafiles/stock/UserStocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/src/datafiles/user/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/src/datafiles/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/src/datafiles/user/UserAlerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/src/datafiles/user/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/src/exceptions/command/CommandArgEmptyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/src/exceptions/command/SellingAmountIncompatible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/src/exceptions/command/UserDoesntHasStockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/src/exceptions/name/EmptyNameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/src/exceptions/name/NameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/src/exceptions/name/NameExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/src/exceptions/user/UserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/src/exceptions/user/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/src/livechat/ChatManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/src/livechat/SingleChatEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/src/logicinterface/LoadFileTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/RSE - 318320702 &amp;  313359069.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/readme.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/runfiles/RSE.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/runfiles/logic.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/runfiles/ui.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/logic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/commands/BuyingCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/commands/RizpaCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/commands/SellingCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/commands/types/CommandType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/commands/types/FOK.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/commands/types/IOC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/commands/types/LMT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/commands/types/MKT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/dto/BuyingCommandDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/dto/RecordBookDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/dto/RizpaCommandDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/dto/SellingCommandDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/dto/StockDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/generated/ObjectFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/generated/RizpaStockExchangeDescriptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/generated/RseStock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/generated/RseStocks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/stock/RecordBook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/stock/Stock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/datafiles/stock/Stocks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/command/CommandAmountException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/command/CommandException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/command/CommandParsingException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/command/CommandTypeNotExistsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/file/EmptyFileException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/file/FileException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/file/FileNotEmptyException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/file/InvalidFileTypeException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/stock/CompanyNameException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/stock/StockAmountException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/stock/StockException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/stock/StockNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/stock/StockPriceException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/symbol/SymbolEmptyException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/symbol/SymbolException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/symbol/SymbolExistsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/exceptions/symbol/SymbolMismatchException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/logicinterface/RizpaEngine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/logic/src/logicinterface/RizpaInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/ui/src/RizpaUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part1/source/ui/ui.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part2/RSE.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSE - 318320702 &amp;  313359069.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RSE/consoleui/src/RizpaUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RSE/consoleui/src/RizpaUI$MenuOption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RSE/consoleui/src/RizpaUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RSE/consoleui/ui.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RSE/ui/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RSE/ui/RSE.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RSE/ui/RizpaGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RSE/ui/menubar/MenuBarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RSE/ui/menubar/menubar.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RSE/ui/stockmenu/StockMenuItemController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RSE/ui/stockmenu/singlestockitem.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RSE/ui/stockmenu/stockmenu.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/commands/BuyingCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/commands/BuyingCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$CommandType$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$CommandType$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$CommandType$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$CommandType$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$CommandType$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$CommandType$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$CommandType$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$CommandType$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$CommandType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$CommandType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/commands/SellingCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/commands/SellingCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/dto/BuyingCommandDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/dto/BuyingCommandDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/dto/RecordBookDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/dto/RecordBookDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/dto/RizpaCommandDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/dto/RizpaCommandDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/dto/SellingCommandDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/dto/SellingCommandDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/dto/StockDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/dto/StockDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/generated/ObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/generated/ObjectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/generated/RizpaStockExchangeDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/generated/RizpaStockExchangeDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/stock/RecordBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/stock/RecordBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/stock/Stock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/stock/Stock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/stock/Stocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/stock/Stocks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/exceptions/command/CommandAmountException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/exceptions/command/CommandAmountException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/exceptions/command/CommandParsingException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/exceptions/command/CommandParsingException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/exceptions/stock/CompanyNameException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/exceptions/stock/CompanyNameException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/logicinterface/RizpaEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/logicinterface/RizpaEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/logic/logicinterface/RizpaInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/logicinterface/RizpaInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/xml/RSE-V1.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/xml/ex1-error-3.2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/xml/ex1-error-3.3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/xml/ex1-small.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runfiles/RSE.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runfiles/logic.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runfiles/ui.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consoleui/src/RizpaUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consoleui/ui.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/commands/BuyingCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/commands/BuyingCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/commands/RizpaCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/commands/RizpaCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/commands/SellingCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/commands/SellingCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/dto/BuyingCommandDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/dto/BuyingCommandDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/dto/RecordBookDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/dto/RecordBookDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/dto/RizpaCommandDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/dto/RizpaCommandDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/dto/SellingCommandDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/dto/SellingCommandDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/dto/StockDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/dto/StockDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/generated/ObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/generated/RizpaStockExchangeDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/generated/RseStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/generated/RseStocks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/stock/RecordBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/stock/RecordBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/stock/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/stock/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/stock/Stocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/stock/Stocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/src/exceptions/command/CommandAmountException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/exceptions/command/CommandAmountException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/src/exceptions/command/CommandParsingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/exceptions/command/CommandParsingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/src/exceptions/stock/CompanyNameException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/exceptions/stock/CompanyNameException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/src/logicinterface/RizpaEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/logicinterface/RizpaEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/src/logicinterface/RizpaInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/logicinterface/RizpaInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/RSE.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/RizpaGUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/menubar/MenuBarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/menubar/menubar.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/stockmenu/StockMenuItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/stockmenu/singlestockitem.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/stockmenu/stockmenu.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,46 +179,114 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Enum" />
+        <option value="CSS File" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectId" id="1sCYezExBHbtCGb30SHQv2i605X" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/ui" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/RSEWebApp/web/WEB-INF/lib/google-gson-2.1/gson-2.1.jar" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15519014" />
+    <property name="project.structure.side.proportion" value="0.28014615" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="build.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="datafiles.user" />
+      <recent name="ui.alerts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Oren\Desktop\Projects\Git\RSE\src\RSEWebApp\web\pages\searchstock" />
+      <recent name="C:\Users\Oren\Desktop\Projects\Git\RSE\src\RSEWebApp\web\pages\dashboard" />
+      <recent name="C:\Users\Oren\Desktop\Projects\Git\RSE\src\logic\src\livechat" />
+      <recent name="C:\Users\Oren\Desktop\Projects\Git\RSE\src\RSEWebApp\web\pages\signup" />
+      <recent name="C:\Users\Oren\Desktop\Projects\Git\RSE\src\RSEWebApp\web\pages\issuestock" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Oren\Desktop\Projects\Git\RSE\src" />
+      <recent name="C:\Users\Oren\Desktop\Projects\Git\RSE\src\RSEWebApp\web\WEB-INF\lib" />
+      <recent name="C:\Users\Oren\Desktop\Projects\Git\RSE\src\RSEWebApp\web\common" />
+      <recent name="C:\Users\Oren\Desktop\Projects\Git\RSE\src\RSEWebApp\web\common\alertuser" />
+      <recent name="C:\Users\Oren\Desktop\Projects\Git\RSE\src\logic\src\datafiles" />
+      <recent name="C:\Users\Oren\Desktop\Projects\Git\RSE\src\RSEWebApp\web" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="ui.alerts" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="servlets.common" />
+      <recent name="servlets.stockcommand" />
+      <recent name="servlets.searchstock" />
+      <recent name="servlets.livechat" />
+      <recent name="servlets.profile" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.68">
     <configuration name="RizpaGUI" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ui.RizpaGUI" />
+      <option name="MAIN_CLASS_NAME" value="ui.app.RizpaGUI" />
       <module name="RSE" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ui.menubar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RizpaUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="consoleui.src.RizpaUI" />
+      <module name="RSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="consoleui.src.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,9 +313,104 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat 8.5.68" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.68" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:3000/" />
+      <option name="UPDATING_POLICY" value="update-resources" />
+      <deployment>
+        <artifact name="RSEWebApp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="35280acb-2375-43f2-928b-4aace5d6285b" />
+        <option name="HTTP_PORT" value="3000" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58604" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="RSEWebApp:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.RizpaGUI" />
+      <item itemvalue="Application.RizpaUI" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.68" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.RizpaGUI" />
+        <item itemvalue="Application.RizpaUI" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +429,98 @@
       <workItem from="1621333959278" duration="1436000" />
       <workItem from="1621345112155" duration="9288000" />
       <workItem from="1621435051879" duration="661000" />
-      <workItem from="1621435728418" duration="649000" />
+      <workItem from="1621435728418" duration="2683000" />
+      <workItem from="1621502162189" duration="7276000" />
+      <workItem from="1621693366341" duration="8410000" />
+      <workItem from="1621766647327" duration="5691000" />
+      <workItem from="1621851743107" duration="4652000" />
+      <workItem from="1621856449055" duration="12060000" />
+      <workItem from="1621928889967" duration="9864000" />
+      <workItem from="1622020756317" duration="19610000" />
+      <workItem from="1622046184002" duration="22000" />
+      <workItem from="1622052459437" duration="2532000" />
+      <workItem from="1622069300527" duration="518000" />
+      <workItem from="1622069867804" duration="1115000" />
+      <workItem from="1622105513948" duration="11837000" />
+      <workItem from="1622193037784" duration="4508000" />
+      <workItem from="1622197663387" duration="670000" />
+      <workItem from="1622218930275" duration="2317000" />
+      <workItem from="1622226249919" duration="68000" />
+      <workItem from="1622240426287" duration="5388000" />
+      <workItem from="1622281882204" duration="2863000" />
+      <workItem from="1622307872594" duration="4763000" />
+      <workItem from="1622364516018" duration="11963000" />
+      <workItem from="1622405037336" duration="688000" />
+      <workItem from="1622470352875" duration="4957000" />
+      <workItem from="1622535906945" duration="4268000" />
+      <workItem from="1622540313160" duration="11003000" />
+      <workItem from="1622554422851" duration="81000" />
+      <workItem from="1622561113481" duration="12022000" />
+      <workItem from="1622622247110" duration="16476000" />
+      <workItem from="1622641936928" duration="2239000" />
+      <workItem from="1622721026885" duration="8094000" />
+      <workItem from="1622744143558" duration="3237000" />
+      <workItem from="1622794179913" duration="9216000" />
+      <workItem from="1622805580117" duration="82000" />
+      <workItem from="1622806081621" duration="60000" />
+      <workItem from="1622885508345" duration="1883000" />
+      <workItem from="1624196004316" duration="662000" />
+      <workItem from="1624263542668" duration="1164000" />
+      <workItem from="1624264735099" duration="283000" />
+      <workItem from="1624265033078" duration="4472000" />
+      <workItem from="1624275099005" duration="696000" />
+      <workItem from="1624275981920" duration="10339000" />
+      <workItem from="1624292864636" duration="6131000" />
+      <workItem from="1624351481615" duration="3184000" />
+      <workItem from="1624361574871" duration="8050000" />
+      <workItem from="1624436817479" duration="2910000" />
+      <workItem from="1624439806315" duration="1892000" />
+      <workItem from="1624448768051" duration="8780000" />
+      <workItem from="1624472721586" duration="5274000" />
+      <workItem from="1624522943375" duration="2806000" />
+      <workItem from="1624525801446" duration="1738000" />
+      <workItem from="1624535020070" duration="8947000" />
+      <workItem from="1624565134461" duration="5671000" />
+      <workItem from="1624992706452" duration="2272000" />
+      <workItem from="1625221631070" duration="2754000" />
+      <workItem from="1625398585502" duration="19754000" />
+      <workItem from="1625420991522" duration="1792000" />
+      <workItem from="1625472979204" duration="2725000" />
+      <workItem from="1625488428532" duration="1864000" />
+      <workItem from="1625562046790" duration="3263000" />
+      <workItem from="1625568986863" duration="2665000" />
+      <workItem from="1625573662196" duration="4082000" />
+      <workItem from="1625595923306" duration="9933000" />
+      <workItem from="1625612709059" duration="3682000" />
+      <workItem from="1625664305041" duration="1855000" />
+      <workItem from="1625733887815" duration="6014000" />
+      <workItem from="1625740408275" duration="151000" />
+      <workItem from="1625753769089" duration="833000" />
+      <workItem from="1625786685541" duration="4167000" />
+      <workItem from="1625790891362" duration="117000" />
+      <workItem from="1625820407967" duration="2056000" />
+      <workItem from="1625826601306" duration="11011000" />
+      <workItem from="1625843160371" duration="413000" />
+      <workItem from="1625843644403" duration="433000" />
+      <workItem from="1625844579817" duration="601000" />
+      <workItem from="1625857765637" duration="537000" />
+      <workItem from="1625941465950" duration="374000" />
+      <workItem from="1625941970940" duration="304000" />
+      <workItem from="1625952209543" duration="4437000" />
+      <workItem from="1626164337754" duration="4196000" />
+      <workItem from="1626208233157" duration="1400000" />
+      <workItem from="1626282704480" duration="1024000" />
+      <workItem from="1626292365228" duration="1969000" />
+      <workItem from="1626303275601" duration="3850000" />
+      <workItem from="1626338076134" duration="3324000" />
+      <workItem from="1626345828494" duration="8194000" />
+      <workItem from="1626426835178" duration="9899000" />
+      <workItem from="1626446861165" duration="1514000" />
+      <workItem from="1626515896081" duration="6634000" />
+      <workItem from="1626536556152" duration="8112000" />
+      <workItem from="1626605226915" duration="2660000" />
+      <workItem from="1626608124002" duration="446000" />
+      <workItem from="1626608583984" duration="847000" />
     </task>
     <servers />
   </component>
@@ -174,14 +540,60 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/ui/task/TaskWindowController.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/RSEWebApp/src/servlets/login/SignUpServlet.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/RSEWebApp/src/servlets/profile/FileUploadServlet.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/logic/src/datafiles/dto/StockDto.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/logic/src/datafiles/dto/RecordBookDto.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="ui.menubar.MenuBarController" memberName="mainController" />
+        <PinnedItemInfo parentTag="java.lang.StringBuilder" memberName="value" />
+        <PinnedItemInfo parentTag="org.apache.catalina.core.ApplicationPart" memberName="location" />
+        <PinnedItemInfo parentTag="datafiles.user.Users" memberName="Symbol2User" />
+        <PinnedItemInfo parentTag="org.apache.catalina.connector.ResponseFacade" memberName="response" />
+        <PinnedItemInfo parentTag="datafiles.commands.SellingCommand" memberName="seller" />
+        <PinnedItemInfo parentTag="datafiles.stock.Stock" memberName="price" />
+        <PinnedItemInfo parentTag="datafiles.commands.BuyingCommand" memberName="seller" />
+        <PinnedItemInfo parentTag="datafiles.dto.RecordBookDto" memberName="completed" />
+        <PinnedItemInfo parentTag="datafiles.stock.Stocks" memberName="Symbol2Stock" />
+        <PinnedItemInfo parentTag="datafiles.stock.UserStocks" memberName="Stocks2Amount" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="stockMenuComponent.getPanes()" language="JAVA" />
+        <watch expression="command.getType().equals(&quot;IOC&quot;)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/RSE$RizpaGUI.ic" NAME="RizpaGUI Coverage Results" MODIFIED="1621351527862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/RSE$Tomcat_8_5_68.ic" NAME="Tomcat 8.5.68 Coverage Results" MODIFIED="1626351821281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/RSE$RizpaGUI.ic" NAME="RizpaGUI Coverage Results" MODIFIED="1622573575650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ui.menubar.*</FILTER>
     </SUITE>
   </component>

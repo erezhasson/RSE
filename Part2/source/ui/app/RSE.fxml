@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<ScrollPane fitToHeight="true" fitToWidth="true" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.app.MainAppController">
+   <content>
+      <BorderPane fx:id="mainComponent" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0">
+         <bottom>
+            <VBox disable="true" prefHeight="190.0" BorderPane.alignment="CENTER">
+               <children>
+                  <GridPane prefHeight="230.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="0.0" prefWidth="29.0" />
+                        <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="171.0" />
+                      <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="438.0" />
+                        <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="167.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints vgrow="ALWAYS" />
+                      <RowConstraints vgrow="ALWAYS" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <LineChart fx:id="stockGraphComponent" axisSortingPolicy="Y_AXIS" GridPane.columnSpan="4" GridPane.hgrow="ALWAYS" GridPane.rowSpan="2" GridPane.vgrow="ALWAYS">
+                           <xAxis>
+                              <CategoryAxis label="Time" side="BOTTOM" />
+                           </xAxis>
+                           <yAxis>
+                              <NumberAxis label="Price" side="LEFT" />
+                           </yAxis>
+                           <padding>
+                              <Insets bottom="10.0" />
+                           </padding>
+                        </LineChart>
+                        <Label alignment="BOTTOM_RIGHT" prefHeight="17.0" prefWidth="76.0" styleClass="rse-label" text="RSE 2021 ©" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.hgrow="SOMETIMES" GridPane.rowIndex="2" GridPane.valignment="BOTTOM" GridPane.vgrow="NEVER">
+                           <GridPane.margin>
+                              <Insets right="5.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <HBox alignment="BOTTOM_LEFT" nodeOrientation="LEFT_TO_RIGHT" spacing="5.0" GridPane.columnSpan="2" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM" GridPane.vgrow="NEVER">
+                           <children>
+                              <fx:include fx:id="graphTabsComponent" source="../graphcomponent/graphtabs/grpahtabs.fxml" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM" GridPane.vgrow="NEVER" HBox.hgrow="NEVER" />
+                              <ImageView fx:id="refreshGraphComponent" onMouseClicked="#refreshGraph" opacity="0.5">
+                                 <image>
+                                    <Image url="@../resources/images/refresh.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets bottom="1.0" />
+                                 </HBox.margin>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                     </children>
+                  </GridPane>
+               </children>
+            </VBox>
+         </bottom>
+         <top>
+            <fx:include fx:id="menuBarComponent" source="../menubar/menubar.fxml" />
+         </top>
+         <center>
+            <GridPane fx:id="centerGridComponent" minHeight="-Infinity" minWidth="-Infinity" prefHeight="227.0" prefWidth="800.0" styleClass="mainGridComponent" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="NEVER" />
+                <ColumnConstraints hgrow="ALWAYS" maxWidth="522.0" minWidth="10.0" prefWidth="464.0" />
+                  <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="163.0" minHeight="0.0" prefHeight="27.0" vgrow="NEVER" />
+                <RowConstraints minHeight="0.0" prefHeight="145.0" vgrow="ALWAYS" />
+                <RowConstraints minHeight="10.0" prefHeight="112.0" vgrow="ALWAYS" />
+                  <RowConstraints minHeight="10.0" vgrow="ALWAYS" />
+              </rowConstraints>
+               <children>
+                  <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" prefWidth="150.0" styleClass="stock-scroller" GridPane.hgrow="NEVER" GridPane.rowSpan="4" GridPane.vgrow="ALWAYS">
+                    <content>
+                      <AnchorPane prefHeight="381.0" styleClass="stock-anchor">
+                           <children>
+                              <fx:include fx:id="stockMenuComponent" source="../stockmenu/stockmenu.fxml" />
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+                  <fx:include fx:id="userMenuComponent" source="../usermenu/usermenu.fxml" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.hgrow="ALWAYS" GridPane.vgrow="NEVER" />
+                  <fx:include fx:id="actionWindowComponent" source="../actionwindow/actionwindow.fxml" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.rowSpan="3" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+               </children>
+            </GridPane>
+         </center>
+      </BorderPane>
+   </content>
+</ScrollPane>
