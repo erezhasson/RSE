@@ -44,9 +44,8 @@ public class RizpaEngine implements RizpaInterface {
         onlineUsers = new Users();
 
         try {
-            User admin = new User("Admin"), erez = new User("erez");
+            User admin = new User("Admin");
             users.addUser("Admin", admin);
-            users.addUser("erez", erez);
         } catch (EmptyNameException | NameExistsException ignored) {
         }
     }
@@ -292,10 +291,11 @@ public class RizpaEngine implements RizpaInterface {
     @Override
     public void issueNewStock(String username, String stockSymbol, int stockAmount, String companyName, double companyWorth)
             throws StockException, SymbolException {
+        String symbolUpperCase = stockSymbol.toUpperCase();
         User stockOwner = users.getUser(username);
-        Stock issuedStock = new Stock(companyName, stockSymbol, (int)(companyWorth / stockAmount));
+        Stock issuedStock = new Stock(companyName, symbolUpperCase, (int)(companyWorth / stockAmount));
 
-        stocks.addStock(stockSymbol, issuedStock);
+        stocks.addStock(symbolUpperCase, issuedStock);
         stockOwner.addStockToUser(issuedStock, stockAmount);
     }
 

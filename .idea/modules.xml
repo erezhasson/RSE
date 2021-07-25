@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/RSE.iml" filepath="$PROJECT_DIR$/RSE.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/RSEWebApp/RSEWebApp.iml" filepath="$PROJECT_DIR$/src/RSEWebApp/RSEWebApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/RSEWebApp/web/WEB-INF/lib/google-gson-2.1/google-gson-2.1.iml" filepath="$PROJECT_DIR$/src/RSEWebApp/web/WEB-INF/lib/google-gson-2.1/google-gson-2.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/logic/logic.iml" filepath="$PROJECT_DIR$/src/logic/logic.iml" />
     </modules>
   </component>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="RSEWebApp" />
       <artifact name="RSEWebApp:war exploded" />
     </artifacts-to-build>
   </component>
@@ -10,166 +11,339 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c26d7e9c-c3e1-4d30-b278-02fc891768aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/RSEWebApp_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/logic.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6__4_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Part2/source/logic/logic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/RSEWebApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/constants/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/common/AlertUserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/dashboard/CommandsListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/dashboard/DealsListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/dashboard/OnlineUsersListSerlvet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/dashboard/StockSalesServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/dashboard/StockTableServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/dashboard/StocksListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/dashboard/UsersListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/issuestock/IssueStockServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/livechat/ChatServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/livechat/SendChatServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/login/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/login/LogoutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/login/SignUpServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/profile/BalanceChargeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/profile/BalanceServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/profile/FileUploadServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/profile/ProfileServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/profile/TransactionTableServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/searchstock/PendingCommandsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/searchstock/SearchStockServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/stockcommand/StockCommandServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/utils/ServletUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/src/utils/SessionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/WEB-INF/lib/google-gson-2.1/google-gson-2.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/common/alertuser/alertuser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/common/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/common/context-path-helper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/common/jquery-2.0.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/common/livechat/livechat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/common/livechat/livechat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/common/videos/welcome-video.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/dashboard/dashboard-admin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/dashboard/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/dashboard/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/dashboard/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/issuestock/issuestock.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/issuestock/issuestock.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/issuestock/issuestock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/login/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/login/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/login/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/profile/profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/profile/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/profile/profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/searchstock/searchstock-admin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/searchstock/searchstock.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/searchstock/searchstock.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/searchstock/searchstock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/signup/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/stockcommand/stockcommand.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/stockcommand/stockcommand.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/stockcommand/stockcommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RSEWebApp/web/welcome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/src/datafiles/commands/CommandDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/src/datafiles/dto/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/src/datafiles/dto/UserStocksDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/src/datafiles/stock/UserStocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/src/datafiles/user/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/src/datafiles/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/src/datafiles/user/UserAlerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/src/datafiles/user/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/src/exceptions/command/CommandArgEmptyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/src/exceptions/command/SellingAmountIncompatible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/src/exceptions/command/UserDoesntHasStockException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/src/exceptions/name/EmptyNameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/src/exceptions/name/NameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/src/exceptions/name/NameExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/src/exceptions/user/UserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/src/exceptions/user/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/src/livechat/ChatManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/src/livechat/SingleChatEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/src/logicinterface/LoadFileTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/RSEWebApp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RSE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/RSEWebApp_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/RSEWebApp_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/logic.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6__4_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RSE - 318320702 &amp;  313359069.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RSE/consoleui/src/RizpaUI$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RSE/consoleui/src/RizpaUI$MenuOption.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RSE/consoleui/src/RizpaUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RSE/consoleui/ui.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RSE/ui/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RSE/ui/RSE.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RSE/ui/RizpaGUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RSE/ui/menubar/MenuBarController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RSE/ui/menubar/menubar.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RSE/ui/stockmenu/StockMenuItemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RSE/ui/stockmenu/singlestockitem.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RSE/ui/stockmenu/stockmenu.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/commands/BuyingCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/commands/BuyingCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$CommandType$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$CommandType$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$CommandType$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$CommandType$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$CommandType$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$CommandType$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$CommandType$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$CommandType$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$CommandType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand$CommandType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/commands/RizpaCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/commands/SellingCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/commands/SellingCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/dto/BuyingCommandDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/dto/BuyingCommandDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/dto/RecordBookDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/dto/RecordBookDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/dto/RizpaCommandDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/dto/RizpaCommandDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/dto/SellingCommandDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/dto/SellingCommandDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/dto/StockDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/dto/StockDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/generated/ObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/generated/ObjectFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/generated/RizpaStockExchangeDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/generated/RizpaStockExchangeDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/stock/RecordBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/stock/RecordBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/stock/Stock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/stock/Stock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/datafiles/stock/Stocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/datafiles/stock/Stocks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/exceptions/command/CommandAmountException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/exceptions/command/CommandAmountException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/exceptions/command/CommandParsingException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/exceptions/command/CommandParsingException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/exceptions/stock/CompanyNameException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/exceptions/stock/CompanyNameException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/readme.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Part3/readme.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/constants/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/BuyingCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/CommandDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/RizpaCommand$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/RizpaCommand$CommandType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/RizpaCommand$CommandType$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/RizpaCommand$CommandType$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/RizpaCommand$CommandType$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/RizpaCommand$CommandType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/RizpaCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/SellingCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/types/CommandType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/types/FOK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/types/IOC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/types/LMT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/types/MKT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/dto/BuyingCommandDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/dto/RecordBookDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/dto/RizpaCommandDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/dto/SellingCommandDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/dto/StockDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/dto/UserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/dto/UserStocksDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/generated/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/generated/RizpaStockExchangeDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/generated/RseHoldings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/generated/RseItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/generated/RseStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/generated/RseStocks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/stock/RecordBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/stock/Stock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/stock/Stocks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/stock/UserStocks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/user/Transaction$TransactionType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/user/Transaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/user/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/user/UserAlerts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/user/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/command/CommandAmountException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/command/CommandArgEmptyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/command/CommandException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/command/CommandParsingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/command/CommandTypeNotExistsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/command/SellingAmountIncompatible.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/command/UserDoesntHasStockException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/file/EmptyFileException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/file/FileException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/file/FileNotEmptyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/file/InvalidFileTypeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/name/EmptyNameException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/name/NameException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/name/NameExistsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/stock/CompanyNameException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/stock/StockAmountException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/stock/StockException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/stock/StockNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/stock/StockPriceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/symbol/SymbolEmptyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/symbol/SymbolException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/symbol/SymbolExistsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/symbol/SymbolMismatchException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/user/UserException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/user/UserNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/lib/javax.ejb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/lib/javax.jms.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/lib/javax.persistence.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/lib/javax.resource.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/lib/javax.servlet.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/lib/javax.servlet.jsp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/lib/javax.servlet.jsp.jstl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/lib/javax.transaction.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/livechat/ChatManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/livechat/SingleChatEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/logicinterface/RizpaEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/logicinterface/RizpaInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/common/AlertUserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/dashboard/CommandsListServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/dashboard/DealsListServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/dashboard/OnlineUsersListSerlvet$OnlineUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/dashboard/OnlineUsersListSerlvet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/dashboard/StockSalesServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/dashboard/StockTableServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/dashboard/StocksListServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/dashboard/UsersListServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/issuestock/IssueStockServlet$IssueStockMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/issuestock/IssueStockServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/livechat/ChatServlet$ChatAndVersion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/livechat/ChatServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/livechat/SendChatServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/login/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/login/LogoutServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/login/SignUpServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/profile/BalanceChargeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/profile/BalanceServlet$Balance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/profile/BalanceServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/profile/FileUploadServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/profile/ProfileServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/profile/TransactionTableServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/searchstock/PendingCommandsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/searchstock/SearchStockServlet$StockInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/searchstock/SearchStockServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/servlets/stockcommand/StockCommandServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/utils/ServletUtils$ErrorMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/utils/ServletUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/classes/utils/SessionUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/lib/google-gson-2.1/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/lib/google-gson-2.1/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/lib/google-gson-2.1/google-gson-2.1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/lib/google-gson-2.1/gson-2.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/lib/google-gson-2.1/gson-2.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/lib/google-gson-2.1/gson-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/lib/gson-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/lib/http_ajax.googleapis.com_ajax_libs_jquery_3.5.1_jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/lib/http_cdn.amcharts.com_lib_4_charts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/lib/http_cdn.amcharts.com_lib_4_core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/lib/http_cdn.amcharts.com_lib_4_themes_animated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/lib/http_cdn.amcharts.com_lib_4_themes_dataviz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/lib/http_cdnjs.cloudflare.com_ajax_libs_Chart.js_3.4.1_chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/lib/http_cdnjs.cloudflare.com_ajax_libs_font-awesome_4.7.0_css_font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/lib/http_kit.fontawesome.com_b99e675b6e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/common/alertuser/alertuser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/common/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/common/context-path-helper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/common/jquery-2.0.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/common/livechat/livechat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/common/livechat/livechat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/common/videos/welcome-video.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/dashboard/dashboard-admin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/dashboard/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/dashboard/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/dashboard/dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/issuestock/issuestock.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/issuestock/issuestock.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/issuestock/issuestock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/login/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/login/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/login/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/profile/profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/profile/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/profile/profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/searchstock/searchstock-admin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/searchstock/searchstock.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/searchstock/searchstock.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/searchstock/searchstock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/signup/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/stockcommand/stockcommand.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/stockcommand/stockcommand.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/pages/stockcommand/stockcommand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/runfiles/tomcat/RSEWebApp_war_exploded/welcome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3/source/logic/src/logicinterface/RizpaEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part3/source/logic/src/logicinterface/RizpaEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/constants/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/BuyingCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/CommandDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/RizpaCommand$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/RizpaCommand$CommandType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/RizpaCommand$CommandType$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/RizpaCommand$CommandType$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/RizpaCommand$CommandType$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/RizpaCommand$CommandType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/RizpaCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/SellingCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/types/CommandType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/types/FOK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/types/IOC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/types/LMT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/commands/types/MKT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/dto/BuyingCommandDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/dto/RecordBookDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/dto/RizpaCommandDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/dto/SellingCommandDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/dto/StockDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/dto/UserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/dto/UserStocksDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/generated/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/generated/RizpaStockExchangeDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/generated/RseHoldings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/generated/RseItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/generated/RseStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/generated/RseStocks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/stock/RecordBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/stock/Stock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/stock/Stocks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/stock/UserStocks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/user/Transaction$TransactionType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/user/Transaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/user/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/user/UserAlerts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/datafiles/user/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/command/CommandAmountException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/command/CommandArgEmptyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/command/CommandException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/command/CommandParsingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/command/CommandTypeNotExistsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/command/SellingAmountIncompatible.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/command/UserDoesntHasStockException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/file/EmptyFileException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/file/FileException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/file/FileNotEmptyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/file/InvalidFileTypeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/name/EmptyNameException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/name/NameException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/name/NameExistsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/stock/CompanyNameException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/stock/StockAmountException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/stock/StockException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/stock/StockNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/stock/StockPriceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/symbol/SymbolEmptyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/symbol/SymbolException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/symbol/SymbolExistsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/symbol/SymbolMismatchException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/user/UserException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/exceptions/user/UserNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/lib/javax.ejb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/lib/javax.jms.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/lib/javax.persistence.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/lib/javax.resource.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/lib/javax.servlet.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/lib/javax.servlet.jsp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/lib/javax.servlet.jsp.jstl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/lib/javax.transaction.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/livechat/ChatManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/livechat/SingleChatEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/logicinterface/RizpaEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/logicinterface/RizpaInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/common/AlertUserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/dashboard/CommandsListServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/dashboard/DealsListServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/dashboard/OnlineUsersListSerlvet$OnlineUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/dashboard/OnlineUsersListSerlvet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/dashboard/StockSalesServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/dashboard/StockTableServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/dashboard/StocksListServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/dashboard/UsersListServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/issuestock/IssueStockServlet$IssueStockMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/issuestock/IssueStockServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/livechat/ChatServlet$ChatAndVersion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/livechat/ChatServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/livechat/SendChatServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/login/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/login/LogoutServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/login/SignUpServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/profile/BalanceChargeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/profile/BalanceServlet$Balance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/profile/BalanceServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/profile/FileUploadServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/profile/ProfileServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/profile/TransactionTableServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/searchstock/PendingCommandsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/searchstock/SearchStockServlet$StockInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/searchstock/SearchStockServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/servlets/stockcommand/StockCommandServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/utils/ServletUtils$ErrorMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/utils/ServletUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/classes/utils/SessionUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/lib/google-gson-2.1/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/lib/google-gson-2.1/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/lib/google-gson-2.1/google-gson-2.1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/lib/google-gson-2.1/gson-2.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/lib/google-gson-2.1/gson-2.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/lib/google-gson-2.1/gson-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/lib/gson-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/lib/http_ajax.googleapis.com_ajax_libs_jquery_3.5.1_jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/lib/http_cdn.amcharts.com_lib_4_charts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/lib/http_cdn.amcharts.com_lib_4_core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/lib/http_cdn.amcharts.com_lib_4_themes_animated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/lib/http_cdn.amcharts.com_lib_4_themes_dataviz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/lib/http_cdnjs.cloudflare.com_ajax_libs_Chart.js_3.4.1_chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/lib/http_cdnjs.cloudflare.com_ajax_libs_font-awesome_4.7.0_css_font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/lib/http_kit.fontawesome.com_b99e675b6e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/common/alertuser/alertuser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/common/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/common/context-path-helper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/common/jquery-2.0.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/common/livechat/livechat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/common/livechat/livechat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/common/videos/welcome-video.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/dashboard/dashboard-admin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/dashboard/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/dashboard/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/dashboard/dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/issuestock/issuestock.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/issuestock/issuestock.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/issuestock/issuestock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/login/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/login/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/login/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/profile/profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/profile/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/profile/profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/searchstock/searchstock-admin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/searchstock/searchstock.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/searchstock/searchstock.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/searchstock/searchstock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/signup/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/stockcommand/stockcommand.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/stockcommand/stockcommand.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/pages/stockcommand/stockcommand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RSEWebApp_war_exploded/welcome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RSEWebApp/servlets/dashboard/StockSalesServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RSEWebApp/servlets/dashboard/StockSalesServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RSEWebApp/servlets/profile/FileUploadServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RSEWebApp/servlets/profile/FileUploadServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/logic/logicinterface/RizpaEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/logicinterface/RizpaEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/logic/logicinterface/RizpaInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/logic/logicinterface/RizpaInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/xml/RSE-V1.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/xml/ex1-error-3.2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/xml/ex1-error-3.3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/xml/ex1-small.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runfiles/RSE.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runfiles/logic.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runfiles/ui.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consoleui/src/RizpaUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consoleui/ui.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/commands/BuyingCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/commands/BuyingCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/commands/RizpaCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/commands/RizpaCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/commands/SellingCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/commands/SellingCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/dto/BuyingCommandDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/dto/BuyingCommandDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/dto/RecordBookDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/dto/RecordBookDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/dto/RizpaCommandDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/dto/RizpaCommandDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/dto/SellingCommandDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/dto/SellingCommandDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/dto/StockDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/dto/StockDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/generated/ObjectFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/generated/RizpaStockExchangeDescriptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/generated/RseStock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/generated/RseStocks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/stock/RecordBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/stock/RecordBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/stock/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/stock/Stock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/src/datafiles/stock/Stocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/datafiles/stock/Stocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/src/exceptions/command/CommandAmountException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/exceptions/command/CommandAmountException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/src/exceptions/command/CommandParsingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/exceptions/command/CommandParsingException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/src/exceptions/stock/CompanyNameException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/exceptions/stock/CompanyNameException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RSEWebApp/RSEWebApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSEWebApp/RSEWebApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/dashboard/StockSalesServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/dashboard/StockSalesServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/profile/FileUploadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSEWebApp/src/servlets/profile/FileUploadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RSEWebApp/web/common/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSEWebApp/web/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RSEWebApp/web/common/context-path-helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSEWebApp/web/context-path-helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RSEWebApp/web/common/jquery-2.0.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RSEWebApp/web/common/videos/welcome-video.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RSEWebApp/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSEWebApp/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RSEWebApp/web/pages/dashboard/dashboard-admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/dashboard/dashboard-admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RSEWebApp/web/pages/dashboard/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/dashboard/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RSEWebApp/web/pages/issuestock/issuestock.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/issuestock/issuestock.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RSEWebApp/web/pages/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RSEWebApp/web/pages/profile/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/profile/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RSEWebApp/web/pages/searchstock/searchstock-admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/searchstock/searchstock-admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RSEWebApp/web/pages/searchstock/searchstock.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/searchstock/searchstock.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RSEWebApp/web/pages/signup/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/signup/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RSEWebApp/web/pages/stockcommand/stockcommand.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSEWebApp/web/pages/stockcommand/stockcommand.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/logic/src/logicinterface/RizpaEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/logicinterface/RizpaEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/src/logicinterface/RizpaInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/src/logicinterface/RizpaInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/RSE.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/RizpaGUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/menubar/MenuBarController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/menubar/menubar.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/stockmenu/StockMenuItemController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/stockmenu/singlestockitem.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/stockmenu/stockmenu.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,12 +398,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/ui" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/RSEWebApp/web/WEB-INF/lib/google-gson-2.1/gson-2.1.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../android-app-food-delivery-system-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15519014" />
-    <property name="project.structure.side.proportion" value="0.28014615" />
+    <property name="project.structure.proportion" value="0.28146258" />
+    <property name="project.structure.side.proportion" value="0.29393467" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
@@ -246,11 +420,11 @@
       <recent name="C:\Users\Oren\Desktop\Projects\Git\RSE\src\RSEWebApp\web\pages\issuestock" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Oren\Desktop\Projects\Git\RSE\src\RSEWebApp\web" />
       <recent name="C:\Users\Oren\Desktop\Projects\Git\RSE\src\RSEWebApp\web\WEB-INF\lib" />
       <recent name="C:\Users\Oren\Desktop\Projects\Git\RSE\src\RSEWebApp\web\common" />
       <recent name="C:\Users\Oren\Desktop\Projects\Git\RSE\src\RSEWebApp\web\common\alertuser" />
       <recent name="C:\Users\Oren\Desktop\Projects\Git\RSE\src\logic\src\datafiles" />
-      <recent name="C:\Users\Oren\Desktop\Projects\Git\RSE\src\RSEWebApp\web" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="ui.alerts" />
@@ -302,19 +476,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tomcat 8.5.68" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.68" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:3000/" />
+    <configuration name="Tomcat 8.5.68" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.68" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="update-resources" />
       <deployment>
         <artifact name="RSEWebApp:war exploded">
@@ -325,7 +487,6 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="35280acb-2375-43f2-928b-4aace5d6285b" />
-        <option name="HTTP_PORT" value="3000" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -397,9 +558,7 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="RSEWebApp:war exploded" />
-        </option>
+        <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
     <list>
@@ -521,6 +680,14 @@
       <workItem from="1626605226915" duration="2660000" />
       <workItem from="1626608124002" duration="446000" />
       <workItem from="1626608583984" duration="847000" />
+      <workItem from="1626609546033" duration="11000" />
+      <workItem from="1626609631669" duration="167000" />
+      <workItem from="1626610360718" duration="4283000" />
+      <workItem from="1626614721399" duration="1065000" />
+      <workItem from="1626615806088" duration="1329000" />
+      <workItem from="1626694917846" duration="686000" />
+      <workItem from="1626774893267" duration="199000" />
+      <workItem from="1627203789782" duration="17000" />
     </task>
     <servers />
   </component>

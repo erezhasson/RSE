@@ -1,9 +1,6 @@
 package servlets.dashboard;
 
 import datafiles.dto.UserDto;
-import datafiles.user.User;
-import exceptions.stock.StockNotFoundException;
-import exceptions.user.UserNotFoundException;
 import logicinterface.RizpaInterface;
 import utils.ServletUtils;
 import utils.SessionUtils;

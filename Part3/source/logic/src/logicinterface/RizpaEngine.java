@@ -44,9 +44,8 @@ public class RizpaEngine implements RizpaInterface {
         onlineUsers = new Users();
 
         try {
-            User admin = new User("Admin"), erez = new User("erez");
+            User admin = new User("Admin");
             users.addUser("Admin", admin);
-            users.addUser("erez", erez);
         } catch (EmptyNameException | NameExistsException ignored) {
         }
     }

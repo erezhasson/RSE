@@ -52,7 +52,7 @@ public class FileUploadServlet extends HttpServlet {
     }
 
     private File createXMLFile(Part part) throws IOException {
-        String location = getServletContext().getRealPath("common\\xmlfile\\xml-file.xml");
+        String location = getServletContext().getRealPath("common\\xml-file.xml");
         File fileToCreate = new File(location);
         boolean createdFile = fileToCreate.createNewFile();
 
