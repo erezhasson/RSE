@@ -1,0 +1,133 @@
+<!Doctype HTML>
+<html lang="en">
+<head>
+	<title>Search Stock</title>
+	<link rel="icon" href="../../common/images/icon.jpg" type="image/x-icon">
+	<link href="../dashboard/dashboard.css" rel="stylesheet" type="text/css"/>
+	<link href="searchstock.css" rel="stylesheet" type="text/css"/>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="../../jquery-3.6.0.min.js"></script>
+	<script src="../../context-path-helper.js"></script>
+	<script src="searchstock.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.min.js"></script>
+
+	<link href="../../common/livechat/livechat.css" rel="stylesheet" type="text/css"/>
+	<script src="../../common/livechat/livechat.js"></script>
+	<script src="../../common/alertuser/alertuser.js"></script>
+
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+	<p class="logo"><span>RSE</span></p>
+	<a href="../dashboard/dashboard.html" class="icon-a"><i class="fa fa-dashboard icons"></i> &nbsp;&nbsp;Dashboard</a>
+	<a class="icon-a" href=""><i class="fa fa-list icons"></i> &nbsp;&nbsp;Search Stock</a>
+	<a class="icon-a" href="../stockcommand/stockcommand.html"><i class="fa fa-shopping-bag icons"></i> &nbsp;&nbsp;Buy/Sell Stock</a>
+	<a class="icon-a" href="../issuestock/issuestock.html"><i class="fa fa-plus-circle icons"></i> &nbsp;&nbsp;Issue New Stock</a>
+
+	<div class="social_media">
+		<a href="../profile/profile.html"><i class="fas fa-user-circle"></i></a>
+		<a id="logout"><i class="fas fa-sign-out-alt"></i></a>
+	</div>
+
+</div>
+<div id="main">
+
+	<div class="head">
+		<div class="col-div-6">
+			<span style="font-size:30px;cursor:pointer; color: white;" class="nav"  >&#9776; Search Stock</span>
+			<span style="font-size:30px;cursor:pointer; color: white;" class="nav2"  >&#9776; Search Stock</span>
+		</div>
+	</div>
+
+	<div class="wrapper">
+		<form id="searchForm" action="SearchStock" class="search-bar">
+			<input type="search" name="symbol" pattern=".*\S.*" required placeholder="Enter stock's symbol here...">
+			<button class="search-btn" type="submit">
+				<span>Search</span>
+			</button>
+		</form>
+	</div>
+
+	<div class="stock-container">
+		<div class="col-div-8">
+				<div id="content" class="content-box">
+					<h1 id="stock-symbol"></h1>
+					<div class="stock-data">
+					<div id="company-name"></div>
+					<div id="price"></div>
+					</div>
+					<h2 id="completedTitle"></h2>
+					<table id="commandsTable">
+					</table>
+					<div id="cycle"></div>
+					<div id="stock-holding"></div>
+					<h2 id="chartTitle"></h2>
+					<canvas id="myChart"></canvas>
+				</div>
+		</div>
+	</div>
+
+	<div id="live-chat">
+		<header class="clearfix">
+			<a class="chat-close">x</a>
+			<h4 id="user-name-label">Live Chat: </h4>
+		</header>
+		<div class="chat" style="display: none">
+			<div id="chatarea" class="chat-history">
+			</div>
+			<form id="chatform" action="sendChat" method="POST">
+				<fieldset>
+					<input type="text" id="userstring" name="userstring" placeholder="Send Message..." autofocus>
+					<input type="hidden">
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+	$(".nav").click(function(){
+		$("#mySidenav").css('width','70px');
+		$("#main").css('margin-left','70px');
+		$(".logo").css('visibility', 'hidden');
+
+		$(".logo span").text("R");
+		$(".logo span").css('visibility', 'visible');
+		$(".logo span").css('margin-left', '-10px');
+		$(".icon-a").css('visibility', 'hidden');
+		$(".icons").css('visibility', 'visible');
+		$(".icons").css('margin-left', '-8px');
+		$(".nav").css('display','none');
+		$(".nav2").css('display','block');
+		$(".social_media").css('display','block');
+	});
+
+	$(".nav2").click(function(){
+		$("#mySidenav").css('width','300px');
+		$("#main").css('margin-left','300px');
+		$(".logo").css('visibility', 'visible');
+		$(".logo span").text("RSE");
+		$(".icon-a").css('visibility', 'visible');
+		$(".icons").css('visibility', 'visible');
+		$(".nav").css('display','block');
+		$(".nav2").css('display','none');
+		$(".social_media").css('display','flex');
+	});
+
+	$("#logout").click(function(){
+		var LOGOUT_URL = window.location.pathname.substring(0, window.location.pathname.indexOf("/",2)) + "/logout";
+
+		window.location.href = LOGOUT_URL;
+	});
+</script>
+
+</body>
+
+
+</html>

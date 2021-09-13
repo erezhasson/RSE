@@ -21,8 +21,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="logic" />
-    <orderEntry type="library" name="Java EE 6-Java EE 6 (4)" level="project" />
-    <orderEntry type="module" module-name="google-gson-2.1" exported="" />
+    <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -36,5 +35,7 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="b99e675b6e" level="application" />
+    <orderEntry type="library" name="font-awesome" level="application" />
   </component>
 </module>

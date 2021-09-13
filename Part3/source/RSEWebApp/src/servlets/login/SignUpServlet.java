@@ -19,8 +19,7 @@ import static constants.Constants.USERNAME;
 public class SignUpServlet extends HttpServlet {
 
 
-    private final String HOME_URL = "/pages/dashboard/dashboard.html";
-    private final String SIGN_UP_URL = "/pages/signup/signup.html";
+
      /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -32,6 +31,10 @@ public class SignUpServlet extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        final String CONTEXT_PATH = request.getContextPath();
+        final String HOME_URL = CONTEXT_PATH + "/pages/dashboard/dashboard.html";
+        final String SIGN_UP_URL = CONTEXT_PATH + "/pages/signup/signup.html";
+
         response.setContentType("text/html;charset=UTF-8");
         String usernameFromParameter = request.getParameter(USERNAME);
 

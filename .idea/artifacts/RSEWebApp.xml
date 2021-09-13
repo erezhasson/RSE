@@ -2,7 +2,19 @@
   <artifact type="war" name="RSEWebApp">
     <output-path>$PROJECT_DIR$/out/artifacts/RSEWebApp</output-path>
     <root id="archive" name="RSEWebApp.war">
-      <element id="artifact" artifact-name="RSEWebApp:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="RSEWebApp" />
+          <element id="library" level="application" name="b99e675b6e" />
+          <element id="library" level="application" name="font-awesome" />
+          <element id="module-output" name="logic" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/RSEWebApp/web/WEB-INF/lib/google-gson-2.1/gson-2.1.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="RSEWebApp/web/Web" />
     </root>
   </artifact>
 </component>

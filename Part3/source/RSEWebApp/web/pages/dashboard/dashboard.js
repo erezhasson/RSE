@@ -1,12 +1,12 @@
 var refreshRate = 1000; //milli seconds
 var timeoutTime = 2000;
-var USER_LIST_URL = "/usersList";
-var STOCK_LIST_URL = "/stocksList";
-var COMMAND_LIST_URL = "/commandsList";
-var DEAL_LIST_URL = "/dealsList";
-var STOCK_SALES_URL = "/stockSales"
-var STOCK_TABLE_URL = "/stockTable"
-var ONLINE_USERS_URL = "/onlineUsers"
+var USER_LIST_URL =  buildUrlWithContextPath("usersList");
+var STOCK_LIST_URL =  buildUrlWithContextPath("stocksList");
+var COMMAND_LIST_URL = buildUrlWithContextPath("commandsList");
+var DEAL_LIST_URL =  buildUrlWithContextPath("dealsList");
+var STOCK_SALES_URL =  buildUrlWithContextPath("stockSales");
+var STOCK_TABLE_URL =  buildUrlWithContextPath("stockTable");
+var ONLINE_USERS_URL =  buildUrlWithContextPath("onlineUsers");
 
 function ajaxList(argument) {
     $.ajax({

@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+
+body{
+    overflow-y: hidden;
+    height: 100vh;
+}
+
+.profile-container {
+    height: 100%;
+    margin-top: 100px;
+}
+
+#main {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.content-box{
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    background: #2f3136;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+button {
+    margin-bottom: 25px;
+}
+
+.content-box p span{
+    background-color: #ddd;
+    padding: 3px 10px;
+    font-size: 15px;
+}
+
+.content-box span {
+    background: linear-gradient(90deg, rgba(18,17,38,1) 0%, rgba(16,15,33,1) 0%, rgba(18,17,38,1) 100%);
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+h1 {
+    position: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 45px;
+    color: #3ba55d;
+    font-weight: 400;
+}
+
+h2 {
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+    margin-bottom: 15px;
+    margin-top: 75px;
+}
+
+.profile-container img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid rgba(150, 255, 0, 0.35);
+}
+
+#transactions-table {
+    position: relative;
+    width: 75%;
+    left: 12%;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+@media (hover: hover) {
+    #creditcard {
+        /*  set start position */
+        transform: translateY(110px);
+        transition: transform 0.1s ease-in-out;
+        /*  set transition for mouse enter & exit */
+    }
+
+    #money {
+        /*  set start position */
+        transform: translateY(180px);
+        transition: transform 0.1s ease-in-out;
+        /*  set transition for mouse enter & exit */
+    }
+
+    button:hover #creditcard {
+        transform: translateY(0px);
+        transition: transform 0.2s ease-in-out;
+        /*  overide transition for mouse enter */
+    }
+
+    button:hover #money {
+        transform: translateY(0px);
+        transition: transform 0.3s ease-in-out;
+        /*  overide transition for mouse enter */
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-0.25rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.button:hover .button__text span {
+    transform: translateY(-0.25rem);
+    transition: transform .2s ease-in-out;
+}
+
+.button {
+    border: none;
+    outline: none;
+    padding: 1rem 90px 1rem 2rem;
+    position: relative;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    background-color: #3ba55d;
+    color: #fff;
+    font-size: 21px;
+    font-family: "Lato", sans-serif;
+    cursor: pointer;
+    box-shadow: rgba(0, 9, 61, 0.2) 0px 4px 8px 0px;
+}
+
+.button:active, .upload-button:active {
+    transform: translateY(3px);
+}
+
+.button__svg {
+    position: absolute;
+    overflow: visible;
+    bottom: 6px;
+    right: 0.2rem;
+    height: 140%;
+}
+
+input {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input[type=submit] {
+    color: white;
+    background: #3ba55d;
+    cursor: pointer;
+}
+
+.balance-charger {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.charge-button {
+    border: none;
+    outline: none;
+    position: relative;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    background-color: #3ba55d;
+    color: #fff;
+    font-size: 21px;
+    font-family: "Lato", sans-serif;
+    cursor: pointer;
+    box-shadow: rgba(0, 9, 61, 0.2) 0px 4px 8px 0px;
+}

@@ -14,8 +14,6 @@ import static constants.Constants.CHARGE_AMOUNT;
 
 public class BalanceChargeServlet extends HttpServlet {
 
-    private final String HOME_URL = "/index.html";
-
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String usernameFromSession = SessionUtils.getUsername(request);
@@ -24,7 +22,7 @@ public class BalanceChargeServlet extends HttpServlet {
 
         if (usernameFromSession == null) {
             response.setStatus(409);
-            response.sendRedirect(HOME_URL);
+            response.sendRedirect(request.getContextPath() + "index.html");
         } else {
             engine.chargeUserBalance(usernameFromSession, Double.parseDouble(chargeAmount));
         }

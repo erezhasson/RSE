@@ -1,0 +1,168 @@
+<!Doctype HTML>
+<html lang="en">
+<head>
+	<title>Dashboard</title>
+	<link rel="icon" href="../../common/images/icon.jpg" type="image/x-icon">
+	<link href="dashboard.css" rel="stylesheet" type="text/css"/>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="../../jquery-3.6.0.min.js"></script>
+	<script src="../../context-path-helper.js"></script>
+	<script src="dashboard.js"></script>
+	<link href="../../common/livechat/livechat.css" rel="stylesheet" type="text/css"/>
+	<script src="../../common/livechat/livechat.js"></script>
+</head>
+<body>
+
+	<div id="mySidenav" class="sidenav">
+	<p class="logo"><span>RSE</span></p>
+  <a href="" class="icon-a"><i class="fa fa-dashboard icons"></i> &nbsp;&nbsp;Dashboard</a>
+  <a class="icon-a" href="../searchstock/searchstock-admin.html"><i class="fa fa-list icons"></i> &nbsp;&nbsp;Search Stock</a>
+
+	<div class="social_media">
+		<a id="logout"><i class="fas fa-sign-out-alt"></i></a>
+	</div>
+
+</div>
+<div id="main">
+
+	<div class="head">
+		<div class="col-div-6">
+<span style="font-size:30px;cursor:pointer; color: white;" class="nav"  >&#9776; Dashboard</span>
+<span style="font-size:30px;cursor:pointer; color: white;" class="nav2"  >&#9776; Dashboard</span>
+</div>
+	
+	<div class="col-div-6">
+</div>
+	<div class="clearfix"></div>
+</div>
+
+	<div class="clearfix"></div>
+	<br/>
+	
+	<div class="col-div-3">
+		<div class="box">
+			<p id="totalUsers">0<br/></p>
+			<p><span>Total Users</span></p>
+			<i class="fa fa-users box-icon"></i>
+		</div>
+	</div>
+	<div class="col-div-3">
+		<div class="box">
+			<p id="totalStocks">0<br/></p>
+			<p><span>Total Stocks</span></p>
+			<i class="fa fa-list box-icon"></i>
+		</div>
+	</div>
+	<div class="col-div-3">
+		<div class="box">
+			<p id="totalCommands">0<br/></p>
+			<p><span>Total Commands Applied</span></p>
+			<i class="fa fa-shopping-bag box-icon"></i>
+		</div>
+	</div>
+	<div class="col-div-3">
+		<div class="box">
+			<p id="totalDeals">0<br/></p>
+			<p><span>Total Completed Deals</span></p>
+			<i class="fa fa-tasks box-icon"></i>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<br/><br/>
+	<div class="col-div-8">
+		<div class="box-8">
+		<div class="content-box">
+			<p>Top Selling Stocks</p>
+			<br/>
+			<table id="stockTable">
+				<thead>
+				<tr>
+					<th>Symbol</th>
+					<th>Company</th>
+					<th>Current Gate</th>
+					<th>Cycle</th>
+				</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	</div>
+
+	<div class="col-div-4 admin">
+		<div class="box-8">
+		<div class="content-box">
+			<p>Online Users</p>
+			<dl id="onlineUsers">
+			</dl>
+  </div>
+		</div>
+	</div>
+	</div>
+	<div class="clearfix"></div>
+	<div id="live-chat">
+		<header class="clearfix">
+			<a class="chat-close">x</a>
+			<h4 id="user-name-label">Live Chat: </h4>
+		</header>
+		<div class="chat" style="display: none">
+			<div id="chatarea" class="chat-history">
+			</div>
+			<form id="chatform" action="sendChat" method="POST">
+				<fieldset>
+					<input type="text" id="userstring" name="userstring" placeholder="Send Message..." autofocus>
+					<input type="hidden">
+				</fieldset>
+			</form>
+		</div>
+	</div>
+
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+  $(".nav").click(function(){
+    $("#mySidenav").css('width','70px');
+    $("#main").css('margin-left','70px');
+    $(".logo").css('visibility', 'hidden');
+
+	  $(".logo span").text("R");
+    $(".logo span").css('visibility', 'visible');
+     $(".logo span").css('margin-left', '-10px');
+     $(".icon-a").css('visibility', 'hidden');
+     $(".icons").css('visibility', 'visible');
+     $(".icons").css('margin-left', '-8px');
+      $(".nav").css('display','none');
+      $(".nav2").css('display','block');
+	  $(".social_media").css('display','block');
+  });
+
+$(".nav2").click(function(){
+    $("#mySidenav").css('width','300px');
+    $("#main").css('margin-left','300px');
+    $(".logo").css('visibility', 'visible');
+	$(".logo span").text("RSE");
+     $(".icon-a").css('visibility', 'visible');
+     $(".icons").css('visibility', 'visible');
+     $(".nav").css('display','block');
+      $(".nav2").css('display','none');
+	$(".social_media").css('display','flex');
+ });
+
+$("#logout").click(function(){
+  var LOGOUT_URL = window.location.pathname.substring(0, window.location.pathname.indexOf("/",2)) + "/logout";
+
+  window.location.href = LOGOUT_URL;
+});
+
+</script>
+
+</body>
+
+
+</html>

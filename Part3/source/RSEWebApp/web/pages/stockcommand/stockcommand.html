@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
 	<title>Stock Command</title>
+	<link rel="icon" href="../../common/images/icon.jpg" type="image/x-icon">
 	<link href="../dashboard/dashboard.css" rel="stylesheet" type="text/css"/>
 	<link href="../searchstock/searchstock.css" rel="stylesheet" type="text/css"/>
 	<link href="stockcommand.css" rel="stylesheet" type="text/css"/>
 	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="../../common/jquery-2.0.3.min.js"></script>
-	<script src="../../common/context-path-helper.js"></script>
+	<script src="../../jquery-3.6.0.min.js"></script>
+	<script src="../../context-path-helper.js"></script>
 	<script src="stockcommand.js"></script>
 	<link href="../../common/livechat/livechat.css" rel="stylesheet" type="text/css"/>
 	<script src="../../common/livechat/livechat.js"></script>
@@ -19,14 +20,14 @@
 
 <div id="mySidenav" class="sidenav">
 	<p class="logo"><span>RSE</span></p>
-	<a href="/pages/dashboard/dashboard.html" class="icon-a"><i class="fa fa-dashboard icons"></i> &nbsp;&nbsp;Dashboard</a>
-	<a class="icon-a" href="/pages/searchstock/searchstock.html"><i class="fa fa-list icons"></i> &nbsp;&nbsp;Search Stock</a>
+	<a href="../dashboard/dashboard.html" class="icon-a"><i class="fa fa-dashboard icons"></i> &nbsp;&nbsp;Dashboard</a>
+	<a class="icon-a" href="../searchstock/searchstock.html"><i class="fa fa-list icons"></i> &nbsp;&nbsp;Search Stock</a>
 	<a class="icon-a" href=""><i class="fa fa-shopping-bag icons"></i> &nbsp;&nbsp;Buy/Sell Stock</a>
-	<a class="icon-a" href="/pages/issuestock/issuestock.html"><i class="fa fa-plus-circle icons"></i> &nbsp;&nbsp;Issue New Stock</a>
+	<a class="icon-a" href="../issuestock/issuestock.html"><i class="fa fa-plus-circle icons"></i> &nbsp;&nbsp;Issue New Stock</a>
 
 	<div class="social_media">
-		<a href="/pages/profile/profile.html"><i class="fas fa-user-circle"></i></a>
-		<a href="/logout"><i class="fas fa-sign-out-alt"></i></a>
+		<a href="../profile/profile.html"><i class="fas fa-user-circle"></i></a>
+		<a id="logout"><i class="fas fa-sign-out-alt"></i></a>
 	</div>
 
 </div>
@@ -147,6 +148,12 @@
 		else
 			$("#price-control").show();
 			$("#number").val("");
+	});
+
+	$("#logout").click(function(){
+		var LOGOUT_URL = window.location.pathname.substring(0, window.location.pathname.indexOf("/",2)) + "/logout";
+
+		window.location.href = LOGOUT_URL;
 	});
 
 </script>

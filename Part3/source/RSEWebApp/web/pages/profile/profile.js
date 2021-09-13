@@ -1,8 +1,8 @@
 var refreshRate = 1000; //milli seconds
 var timeoutTime = 2000;
-var USER_DATA_URL = "/userData";
-var BALANCE_URL = "/balance";
-var TRANSACTION_TABLE_URL = "/transactionTable";
+var USER_DATA_URL = buildUrlWithContextPath("userData");
+var BALANCE_URL =  buildUrlWithContextPath("balance");
+var TRANSACTION_TABLE_URL =  buildUrlWithContextPath("transactionTable");
 var PROFILE_IMG_URL = "https://www.w3schools.com/howto/img_avatar.png";
 
 function displayUserInfo(userInfo) {

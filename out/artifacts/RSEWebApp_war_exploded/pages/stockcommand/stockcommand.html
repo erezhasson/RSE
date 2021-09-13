@@ -1,0 +1,164 @@
+<!Doctype HTML>
+<html lang="en">
+<head>
+	<title>Stock Command</title>
+	<link rel="icon" href="../../common/images/icon.jpg" type="image/x-icon">
+	<link href="../dashboard/dashboard.css" rel="stylesheet" type="text/css"/>
+	<link href="../searchstock/searchstock.css" rel="stylesheet" type="text/css"/>
+	<link href="stockcommand.css" rel="stylesheet" type="text/css"/>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="../../jquery-3.6.0.min.js"></script>
+	<script src="../../context-path-helper.js"></script>
+	<script src="stockcommand.js"></script>
+	<link href="../../common/livechat/livechat.css" rel="stylesheet" type="text/css"/>
+	<script src="../../common/livechat/livechat.js"></script>
+	<script src="../../common/alertuser/alertuser.js"></script>
+
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+	<p class="logo"><span>RSE</span></p>
+	<a href="../dashboard/dashboard.html" class="icon-a"><i class="fa fa-dashboard icons"></i> &nbsp;&nbsp;Dashboard</a>
+	<a class="icon-a" href="../searchstock/searchstock.html"><i class="fa fa-list icons"></i> &nbsp;&nbsp;Search Stock</a>
+	<a class="icon-a" href=""><i class="fa fa-shopping-bag icons"></i> &nbsp;&nbsp;Buy/Sell Stock</a>
+	<a class="icon-a" href="../issuestock/issuestock.html"><i class="fa fa-plus-circle icons"></i> &nbsp;&nbsp;Issue New Stock</a>
+
+	<div class="social_media">
+		<a href="../profile/profile.html"><i class="fas fa-user-circle"></i></a>
+		<a id="logout"><i class="fas fa-sign-out-alt"></i></a>
+	</div>
+
+</div>
+<div id="main">
+
+	<div class="head">
+		<div class="col-div-6">
+			<span style="font-size:30px;cursor:pointer; color: white;" class="nav"  >&#9776; Buy/Sell Stock</span>
+			<span style="font-size:30px;cursor:pointer; color: white;" class="nav2"  >&#9776; Buy/Sell Stock</span>
+		</div>
+	</div>
+
+	<div class="command-container">
+		<div class="content-box">
+			<h1>Apply New Command</h1>
+
+			<div class="container">
+				<div class="form-box">
+					<form id="command-form" action="applyCommand">
+						<div class="form-group form-personal">
+							<div class="form-control">
+								<label id="symbol-label" for="symbol">Symbol:</label>
+								<input id="symbol" type="text" name="symbol" placeholder="Stock's symbol" required="required"/>
+							</div>
+							<div class="form-control">
+								<label for="type-dropdown">Command Type:</label>
+								<select id="type-dropdown" name="type">
+									<option value="LMT">LMT</option>
+									<option value="MKT">MKT</option>
+									<option value="FOK">FOK</option>
+									<option value="IOC">IOC</option>
+								</select>
+							</div>
+							<div class="form-control">
+								<label for="direction-dropdown">Buying/Selling:</label>
+								<select id="direction-dropdown" name="direction">
+									<option value="Buying">Buying</option>
+									<option value="Selling">Selling</option>
+								</select>
+							</div>
+							<div class="form-control">
+								<label id="amount-label" for="amount">Amount:</label>
+								<input id="amount" type="number" name="amount" min="1" step="1" placeholder="Amount" required="required"/>
+							</div>
+							<div class="form-control" id="price-control">
+								<label id="number-label" for="number">Price:</label>
+								<input id="number" type="number" name="price" min="1" step="0.01" placeholder="Price" required="required"/>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="form-submit">
+								<input id="submit" type="submit" value="Apply Command!"/>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="live-chat">
+		<header class="clearfix">
+			<a class="chat-close">x</a>
+			<h4 id="user-name-label">Live Chat: </h4>
+		</header>
+		<div class="chat" style="display: none">
+			<div id="chatarea" class="chat-history">
+			</div>
+			<form id="chatform" action="sendChat" method="POST">
+				<fieldset>
+					<input type="text" id="userstring" name="userstring" placeholder="Send Message..." autofocus>
+					<input type="hidden">
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+	$(".nav").click(function(){
+		$("#mySidenav").css('width','70px');
+		$("#main").css('margin-left','70px');
+		$(".logo").css('visibility', 'hidden');
+
+		$(".logo span").text("R");
+		$(".logo span").css('visibility', 'visible');
+		$(".logo span").css('margin-left', '-10px');
+		$(".icon-a").css('visibility', 'hidden');
+		$(".icons").css('visibility', 'visible');
+		$(".icons").css('margin-left', '-8px');
+		$(".nav").css('display','none');
+		$(".nav2").css('display','block');
+		$(".social_media").css('display','block');
+	});
+
+	$(".nav2").click(function(){
+		$("#mySidenav").css('width','300px');
+		$("#main").css('margin-left','300px');
+		$(".logo").css('visibility', 'visible');
+		$(".logo span").text("RSE");
+		$(".icon-a").css('visibility', 'visible');
+		$(".icons").css('visibility', 'visible');
+		$(".nav").css('display','block');
+		$(".nav2").css('display','none');
+		$(".social_media").css('display','flex');
+	});
+
+
+	$("#type-dropdown").change(function(){
+		var type = this.value;
+
+		if(type === "MKT"){
+			$("#price-control").hide();
+			$("#number").val(1);
+		}
+		else
+			$("#price-control").show();
+			$("#number").val("");
+	});
+
+	$("#logout").click(function(){
+		var LOGOUT_URL = window.location.pathname.substring(0, window.location.pathname.indexOf("/",2)) + "/logout";
+
+		window.location.href = LOGOUT_URL;
+	});
+
+</script>
+
+</body>
+
+
+</html>

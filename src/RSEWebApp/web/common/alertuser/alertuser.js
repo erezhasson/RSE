@@ -1,6 +1,6 @@
 var refreshRate = 1000; //milli seconds
 var timeoutTime = 2000;
-var ALERT_USER_URL = "/alertUser"
+var ALERT_USER_URL =  buildUrlWithContextPath("alertUser");
 
 function ajaxAlertUser() {
     $.ajax({

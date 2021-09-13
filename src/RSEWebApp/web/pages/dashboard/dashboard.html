@@ -18,13 +18,13 @@
 	<div id="mySidenav" class="sidenav">
 	<p class="logo"><span>RSE</span></p>
   <a href="" class="icon-a"><i class="fa fa-dashboard icons"></i> &nbsp;&nbsp;Dashboard</a>
-  <a class="icon-a" href="/pages/searchstock/searchstock.html"><i class="fa fa-list icons"></i> &nbsp;&nbsp;Search Stock</a>
-  <a class="icon-a" href="/pages/stockcommand/stockcommand.html"><i class="fa fa-shopping-bag icons"></i> &nbsp;&nbsp;Buy/Sell Stock</a>
-  <a class="icon-a" href="/pages/issuestock/issuestock.html"><i class="fa fa-plus-circle icons"></i> &nbsp;&nbsp;Issue New Stock</a>
+  <a class="icon-a" href="../searchstock/searchstock.html"><i class="fa fa-list icons"></i> &nbsp;&nbsp;Search Stock</a>
+  <a class="icon-a" href="../stockcommand/stockcommand.html"><i class="fa fa-shopping-bag icons"></i> &nbsp;&nbsp;Buy/Sell Stock</a>
+  <a class="icon-a" href="../issuestock/issuestock.html"><i class="fa fa-plus-circle icons"></i> &nbsp;&nbsp;Issue New Stock</a>
 
 	<div class="social_media">
-		<a href="/pages/profile/profile.html"><i class="fas fa-user-circle"></i></a>
-		<a href="/logout"><i class="fas fa-sign-out-alt"></i></a>
+		<a href="../profile/profile.html"><i class="fas fa-user-circle"></i></a>
+		<a id="logout"><i class="fas fa-sign-out-alt"></i></a>
 	</div>
 
 </div>
@@ -177,6 +177,12 @@ $(".nav2").click(function(){
       $(".nav2").css('display','none');
 	$(".social_media").css('display','flex');
  });
+
+$("#logout").click(function(){
+	var LOGOUT_URL = buildUrlWithContextPath("logout");
+
+	window.location.href = LOGOUT_URL;
+});
 
 </script>
 

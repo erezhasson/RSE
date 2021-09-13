@@ -17,9 +17,6 @@ import static constants.Constants.USERNAME;
 
 public class LoginServlet extends HttpServlet {
 
-    private final String HOME_URL = "/pages/dashboard/dashboard.html";
-    private final String ADMIN_HOME_URL = "/pages/dashboard/dashboard-admin.html";
-    private final String LOGIN_URL = "/pages/login/login.html";
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -31,6 +28,11 @@ public class LoginServlet extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        final String CONTEXT_PATH = request.getContextPath();
+        final String HOME_URL = CONTEXT_PATH + "/pages/dashboard/dashboard.html";
+        final String ADMIN_HOME_URL = CONTEXT_PATH + "/pages/dashboard/dashboard-admin.html";
+        final String LOGIN_URL = CONTEXT_PATH + "/pages/login/login.html";
+
         response.setContentType("text/plain;charset=UTF-8");
         RizpaInterface engine = ServletUtils.getEngine(getServletContext());
         String usernameFromParameter = request.getParameter(USERNAME);

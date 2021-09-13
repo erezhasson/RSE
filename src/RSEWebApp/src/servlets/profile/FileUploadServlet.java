@@ -19,8 +19,6 @@ import java.util.Scanner;
         maxRequestSize = 1024 * 1024 * 5 * 5)
 public class FileUploadServlet extends HttpServlet {
 
-    private final String HOME_URL = "/index.html";
-
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("application/json");
@@ -31,7 +29,7 @@ public class FileUploadServlet extends HttpServlet {
 
         if (usernameFromSession == null) {
             response.setStatus(409);
-            response.sendRedirect(HOME_URL);
+            response.sendRedirect(request.getContextPath() + "index.html");
         } else {
             RizpaInterface engine = ServletUtils.getEngine(getServletContext());
             PrintWriter out = response.getWriter();

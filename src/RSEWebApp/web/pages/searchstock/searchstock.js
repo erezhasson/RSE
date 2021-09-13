@@ -1,4 +1,4 @@
-var PENDING_COMMANDS_URL = "/PendingCommands"
+var PENDING_COMMANDS_URL =  buildUrlWithContextPath("PendingCommands");
 var chart;
 
 function clearStockInfo() {

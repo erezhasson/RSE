@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>RSE - Rizpa Stock Exchange</title>
-
+    <link rel="icon" href="common/images/icon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="welcome.css">
-    <script src="../../common/jquery-2.0.3.min.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="context-path-helper.js"></script>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
 </head>
 <body>
@@ -16,9 +17,7 @@
 
 <script>
     $(".btn").click(function(){
-        //this will find the selected website from the dropdown
-        //this will redirect us in same window
-        document.location.href = "pages/login/login.html";
+        window.location.replace("pages/login/login.html");
     });
 </script>
 </body>

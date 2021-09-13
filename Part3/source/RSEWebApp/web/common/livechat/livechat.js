@@ -2,8 +2,8 @@ var chatVersion = 0;
 var refreshRate = 1000; //milli seconds
 var timeoutTime = 2000;
 var PROFILE_IMG_URL = "https://www.w3schools.com/howto/img_avatar.png";
-var CHAT_LIST_URL = "/chat";
-var MAX_LINE_CHARACTERS = 25;
+var CHAT_LIST_URL =  buildUrlWithContextPath("chat");
+var SEND_CHAT_URL =  buildUrlWithContextPath("sendChat");
 
 function appendChatEntry(index, entry){
     var entryElement = createChatEntry(entry);
@@ -72,8 +72,8 @@ function initChatForm() {
     $("#chatform").submit(function() {
         $.ajax({
             data: $(this).serialize(),
-            url: "/sendChat",
-            timeout: 2000,
+            url: SEND_CHAT_URL,
+            timeout: timeoutTime,
             error: function() {
                 console.error("Failed to submit");
             },
@@ -91,8 +91,6 @@ function initChatForm() {
 }
 
 function initLiveChat() {
-
-
     $('#live-chat header').on('click', function() {
         $('.chat').slideToggle(300, 'swing');
     });

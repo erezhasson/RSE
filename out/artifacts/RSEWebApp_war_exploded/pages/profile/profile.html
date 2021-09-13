@@ -1,0 +1,193 @@
+<!Doctype HTML>
+<html lang="en">
+<head>
+	<title>Profile</title>
+	<link rel="icon" href="../../common/images/icon.jpg" type="image/x-icon">
+	<link href="../dashboard/dashboard.css" rel="stylesheet" type="text/css"/>
+	<link href="../searchstock/searchstock.css" rel="stylesheet" type="text/css"/>
+	<link href="profile.css" rel="stylesheet" type="text/css"/>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="../../jquery-3.6.0.min.js"></script>
+	<script src="../../context-path-helper.js"></script>
+	<script src="profile.js"></script>
+	<link href="../../common/livechat/livechat.css" rel="stylesheet" type="text/css"/>
+	<script src="../../common/livechat/livechat.js"></script>
+	<script src="../../common/alertuser/alertuser.js"></script>
+
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+	<p class="logo"><span>RSE</span></p>
+	<a href="../dashboard/dashboard.html" class="icon-a"><i class="fa fa-dashboard icons"></i> &nbsp;&nbsp;Dashboard</a>
+	<a class="icon-a" href="../searchstock/searchstock.html"><i class="fa fa-list icons"></i> &nbsp;&nbsp;Search Stock</a>
+	<a class="icon-a" href="../stockcommand/stockcommand.html"><i class="fa fa-shopping-bag icons"></i> &nbsp;&nbsp;Buy/Sell Stock</a>
+	<a class="icon-a" href="../issuestock/issuestock.html"><i class="fa fa-plus-circle icons"></i> &nbsp;&nbsp;Issue New Stock</a>
+
+	<div class="social_media">
+		<a href=""><i class="fas fa-user-circle"></i></a>
+		<a id="logout"><i class="fas fa-sign-out-alt"></i></a>
+	</div>
+
+</div>
+<div id="main">
+
+	<div class="head">
+		<div class="col-div-6">
+			<span style="font-size:30px;cursor:pointer; color: white;" class="nav"  >&#9776; Profile</span>
+			<span style="font-size:30px;cursor:pointer; color: white;" class="nav2"  >&#9776; Profile</span>
+		</div>
+	</div>
+
+	<div class="profile-container">
+		<div class="content-box">
+			<div id="profile-container">
+				<h1 id="name"></h1>
+				<button id="charge-balance-button" class="button">
+					<span style="background: transparent" class="button__text">
+						Charge Balance
+					</span>
+					<svg class="button__svg" role="presentational" viewBox="0 0 600 600">
+						<defs>
+							<clipPath id="myClip">
+								<rect x="0" y="0" width="100%" height="50%" />
+							</clipPath>
+						</defs>
+						<g clip-path="url(#myClip)">
+							<g id="money">
+								<path d="M441.9,116.54h-162c-4.66,0-8.49,4.34-8.62,9.83l.85,278.17,178.37,2V126.37C450.38,120.89,446.56,116.52,441.9,116.54Z" fill="#699e64" stroke="#323c44" stroke-miterlimit="10" stroke-width="14" />
+								<path d="M424.73,165.49c-10-2.53-17.38-12-17.68-24H316.44c-.09,11.58-7,21.53-16.62,23.94-3.24.92-5.54,4.29-5.62,8.21V376.54H430.1V173.71C430.15,169.83,427.93,166.43,424.73,165.49Z" fill="#699e64" stroke="#323c44" stroke-miterlimit="10" stroke-width="14" />
+							</g>
+							<g id="creditcard">
+								<path d="M372.12,181.59H210.9c-4.64,0-8.45,4.34-8.58,9.83l.85,278.17,177.49,2V191.42C380.55,185.94,376.75,181.57,372.12,181.59Z" fill="#a76fe2" stroke="#323c44" stroke-miterlimit="10" stroke-width="14" />
+								<path d="M347.55,261.85H332.22c-3.73,0-6.76-3.58-6.76-8v-35.2c0-4.42,3-8,6.76-8h15.33c3.73,0,6.76,3.58,6.76,8v35.2C354.31,258.27,351.28,261.85,347.55,261.85Z" fill="#ffdc67" />
+								<path d="M249.73,183.76h28.85v274.8H249.73Z" fill="#323c44" />
+							</g>
+						</g>
+						<g id="wallet">
+							<path d="M478,288.23h-337A28.93,28.93,0,0,0,112,317.14V546.2a29,29,0,0,0,28.94,28.95H478a29,29,0,0,0,28.95-28.94h0v-229A29,29,0,0,0,478,288.23Z" fill="#a4bdc1" stroke="#323c44" stroke-miterlimit="10" stroke-width="14" />
+							<path d="M512.83,382.71H416.71a28.93,28.93,0,0,0-28.95,28.94h0V467.8a29,29,0,0,0,28.95,28.95h96.12a19.31,19.31,0,0,0,19.3-19.3V402a19.3,19.3,0,0,0-19.3-19.3Z" fill="#a4bdc1" stroke="#323c44" stroke-miterlimit="10" stroke-width="14" />
+							<path d="M451.46,435.79v7.88a14.48,14.48,0,1,1-29,0v-7.9a14.48,14.48,0,0,1,29,0Z" fill="#a4bdc1" stroke="#323c44" stroke-miterlimit="10" stroke-width="14" />
+							<path d="M147.87,541.93V320.84c-.05-13.2,8.25-21.51,21.62-24.27a42.71,42.71,0,0,1,7.14-1.32l-29.36-.63a67.77,67.77,0,0,0-9.13.45c-13.37,2.75-20.32,12.57-20.27,25.77l.38,221.24c-1.57,15.44,8.15,27.08,25.34,26.1l33-.19c-15.9,0-28.78-10.58-28.76-25.93Z" fill="#7b8f91" />
+							<path d="M148.16,343.22a6,6,0,0,0-6,6v92a6,6,0,0,0,12,0v-92A6,6,0,0,0,148.16,343.22Z" fill="#323c44" />
+						</g>
+
+					</svg>
+				</button>
+				<form id="file-upload-form" action="fileUpload" method="POST" enctype="multipart/form-data"
+					  style="display: none">
+					<input id="upload-xml" accept=".xml" name="file" style="display:none;" type="file" multiple>
+					<input id="upload-xml-submit" type="submit" style="display:none;"/>
+				</form>
+				<button id="upload-xml-button" class="button" style="background: #2e6da4;padding: 1rem 2rem 1rem 2rem;">
+					<span style="background: transparent" class="button__text">
+							Upload XML File
+					</span>
+				</button>
+
+				<div id="balance-charger" class="balance-charger">
+					<form id="balance-charge-form" action="chargeBalance">
+							<input id="charge-amount" type="number" name="chargeAmount" min="0.05" step="0.05" placeholder="How much to charge?" required="required"/>
+							<input id="submit" type="submit" value="Charge!"/>
+					</form>
+				</div>
+				<h2 id="balance"></h2>
+				<table id="transaction-table">
+					<thead>
+					<tr>
+						<th>Date</th>
+						<th>Transaction Type</th>
+						<th>Amount</th>
+						<th>Balance</th>
+					</tr>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+			</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="live-chat">
+		<header class="clearfix">
+			<a class="chat-close">x</a>
+			<h4 id="user-name-label">Live Chat: </h4>
+		</header>
+		<div class="chat" style="display: none">
+			<div id="chatarea" class="chat-history">
+			</div>
+			<form id="chatform" action="sendChat" method="POST">
+				<fieldset>
+					<input type="text" id="userstring" name="userstring" placeholder="Send Message..." autofocus>
+					<input type="hidden">
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+	$(".nav").click(function(){
+		$("#mySidenav").css('width','70px');
+		$("#main").css('margin-left','70px');
+		$(".logo").css('visibility', 'hidden');
+
+		$(".logo span").text("R");
+		$(".logo span").css('visibility', 'visible');
+		$(".logo span").css('margin-left', '-10px');
+		$(".icon-a").css('visibility', 'hidden');
+		$(".icons").css('visibility', 'visible');
+		$(".icons").css('margin-left', '-8px');
+		$(".nav").css('display','none');
+		$(".nav2").css('display','block');
+		$(".social_media").css('display','block');
+	});
+
+	$(".nav2").click(function(){
+		$("#mySidenav").css('width','300px');
+		$("#main").css('margin-left','300px');
+		$(".logo").css('visibility', 'visible');
+		$(".logo span").text("RSE");
+		$(".icon-a").css('visibility', 'visible');
+		$(".icons").css('visibility', 'visible');
+		$(".nav").css('display','block');
+		$(".nav2").css('display','none');
+		$(".social_media").css('display','flex');
+	});
+
+	$("#charge-balance-button").click(function(){
+		var charger = $("#balance-charger");
+
+		if (charger.is(':visible')) {
+			charger.fadeOut("slow");
+		}
+		else {
+			charger.fadeIn("slow");
+		}
+	});
+
+	$("#upload-xml-button").click(function () {
+		var fileChooser = $("#upload-xml");
+
+		fileChooser.click();
+	});
+
+	const fileSelector = document.getElementById('upload-xml');
+	fileSelector.addEventListener('change', (event) => {
+		$("#upload-xml-submit").click();
+	});
+
+	$("#logout").click(function(){
+		var LOGOUT_URL = window.location.pathname.substring(0, window.location.pathname.indexOf("/",2)) + "/logout";
+
+		window.location.href = LOGOUT_URL;
+	});
+</script>
+</body>
+
+
+</html>

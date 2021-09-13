@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import static constants.Constants.INT_PARAMETER_ERROR;
 
 public class ServletUtils {
-
 	private static final String ENGINE_ATTRIBUTE_NAME = "engine";
 	private static final String CHAT_MANAGER_ATTRIBUTE_NAME = "chatManager";
 

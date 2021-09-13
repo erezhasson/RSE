@@ -17,8 +17,6 @@ import java.io.PrintWriter;
 
 public class TransactionTableServlet extends HttpServlet {
 
-    private final String HOME_URL = "/index.html";
-
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("application/json");
@@ -29,7 +27,7 @@ public class TransactionTableServlet extends HttpServlet {
 
         if (usernameFromSession == null) {
             response.setStatus(409);
-            response.sendRedirect(HOME_URL);
+            response.sendRedirect(request.getContextPath() + "index.html");
         } else {
             try {
                 UserDto user = engine.getUser(usernameFromSession);
