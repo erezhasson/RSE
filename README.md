@@ -119,11 +119,13 @@ The project summarized  all the subjects that were taught about java & web devel
 
 ### Prerequisites
 
-Nothing but a stable internet connection and understanding systems operation protocol :)
+Nothing but a stable internet connection and understanding <a href="#protocol">systems operation protocol</a></li> :)
 * URL
   ```sh
   https://example.com
   ```
+  
+<div id="protocol"></div>   
   
 ### System Operations Protocol
 <p align="center"><b>[TYPE] [SYMBOL] [AMOUNT] [SELLING/BUYING] [PRICE]</b></p><br/>
