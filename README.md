@@ -82,7 +82,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]]
 
 ### General Background
 Rizpa Stock Exchange (shortly RSE) name is a reference to old stock market's stock exchanging method where traders used to stand in room (called "Trading Floor" - Rizpa in Hebrew translated to floor) and announce which stock is being traded and who is selling it. In the modern age where technology involves at a frequent rate, the stock markets transferred  it's exchanging systems into electronic ones, and this academic project tries to partially clone some of them.
