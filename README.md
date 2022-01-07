@@ -128,13 +128,14 @@ Nothing but a stable internet connection and understanding <a href="#protocol">s
 <div id="protocol"></div>   
   
 ### System Operations Protocol
+In order to issue a new command in system, command structure must be in the following order:  
 <p align="center"><b>[TYPE] [SYMBOL] [AMOUNT] [SELLING/BUYING] [PRICE]</b></p><br/>
 
 
 
 **TYPE:**  
   
-RSE system supports the following command types (case sensitive)-
+RSE system supports the following command types (case sensitive) -
 * LMT - Defines limit to stock's price (to/from price) in the command.
  
   > LMT GIT 100 BUYING/SELLING 100 - will buy/sell 100 stocks of GIT, each in price up to/from 100$.
