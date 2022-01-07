@@ -205,8 +205,8 @@ _For more examples, please refer to the [Demo](https://example.com)_
 - [x] Finished part 1
 - [x] Finished part 2
 - [x] Finished part 3
-- [x] Add a demo
-- [x] Finish working on README
+- [ ] Add a demo
+- [ ] Finish working on README
 
 See the [open issues](https://github.com/erezhasson/RSE/issues) for a full list of proposed features (and known issues).
 
