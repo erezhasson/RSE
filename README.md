@@ -17,14 +17,13 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ferezhasson%2FRSE&count_bg=%23FFB100&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -41,7 +40,7 @@
     <a href="https://github.com/erezhasson/RSE"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="">View Demo</a>
+    <a href="https://youtu.be/4ylUOvWFy60">View Demo</a>
     ·
     <a href="https://github.com/erezhasson/RSE/issues">Report Bug</a>
     ·
@@ -196,7 +195,7 @@ _Below is an example of how you can instruct your audience on installing and set
 ![image](https://user-images.githubusercontent.com/69516798/148556889-3c0683e2-6625-4302-8b41-a8b55f00807a.png)
 ![image](https://user-images.githubusercontent.com/69516798/148556895-f4b25a3d-a2b0-4fc1-98e1-fb31239ea393.png)
 
-_For more examples, please refer to the [Demo](https://example.com)_
+_For more examples, please refer to the [Demo](https://youtu.be/4ylUOvWFy60)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -208,8 +207,8 @@ _For more examples, please refer to the [Demo](https://example.com)_
 - [x] Finished part 1
 - [x] Finished part 2
 - [x] Finished part 3
-- [ ] Add a demo
-- [ ] Finish working on README
+- [x] Add a demo
+- [x] Finish working on README
 
 See the [open issues](https://github.com/erezhasson/RSE/issues) for a full list of proposed features (and known issues).
 
@@ -276,16 +275,16 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/erezhasson/RSE.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/erezhasson/RSE.svg?edge_flat=false
 [contributors-url]: https://github.com/erezhasson/RSE/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/erezhasson/RSE.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/erezhasson/RSE.svg?edge_flat=false
 [forks-url]: https://github.com/erezhasson/RSE/network/members
-[stars-shield]: https://img.shields.io/github/stars/erezhasson/RSE.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/erezhasson/RSE.svg?edge_flat=false
 [stars-url]: https://github.com/erezhasson/RSE/stargazers
-[issues-shield]: https://img.shields.io/github/issues/erezhasson/RSE.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/erezhasson/RSE.svg?edge_flat=false
 [issues-url]: https://github.com/erezhasson/RSE/issues
-[license-shield]: https://img.shields.io/github/license/erezhasson/RSE.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/erezhasson/RSE.svg?edge_flat=false
 [license-url]: https://github.com/erezhasson/RSE/blob/main/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?edge_flat=false&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/erezhasson
 [product-screenshot]: https://user-images.githubusercontent.com/69516798/148563962-ec12f890-a85b-489d-8688-b714f9303d65.png
