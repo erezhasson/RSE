@@ -121,7 +121,7 @@ The project summarized  all the subjects that were taught about java & web devel
 Nothing but a stable internet connection and understanding <a href="#protocol">systems operation protocol</a></li> :)
 * URL
   ```sh
-  https://example.com
+  TBA
   ```
   
 <div id="protocol"></div>   
@@ -207,8 +207,9 @@ _For more examples, please refer to the [Demo](https://youtu.be/4ylUOvWFy60)_
 - [x] Finished part 1
 - [x] Finished part 2
 - [x] Finished part 3
-- [x] Add a demo
-- [x] Finish working on README
+- [x] Add a demo.
+- [x] Finish working on README.
+- [ ] Host RSE application on Heroku.  
 
 See the [open issues](https://github.com/erezhasson/RSE/issues) for a full list of proposed features (and known issues).
 
